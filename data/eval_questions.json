@@ -3,90 +3,149 @@
     "id": "q001",
     "question": "What are the company's main risk factors?",
     "type": "broad-risk",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["risk factors"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-47",
+      "section-14",
+      "section-93"
+    ],
+    "accepted_answer_phrases": [
+      "risk factors"
+    ],
     "notes": "Label chunks from Item 1A."
   },
   {
     "id": "q002",
     "question": "What was research and development spending in the latest fiscal year?",
     "type": "exact-number",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["research and development"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-110",
+      "section-42"
+    ],
+    "accepted_answer_phrases": [
+      "research and development"
+    ],
     "notes": "Label the chunk containing the R&D expense table or discussion."
   },
   {
     "id": "q003",
     "question": "How did revenue change compared with the prior year?",
     "type": "semantic",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["net sales"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-107"
+    ],
+    "accepted_answer_phrases": [
+      "net sales"
+    ],
     "notes": "Label the MD&A chunk that compares annual net sales."
   },
   {
     "id": "q004",
     "question": "Which products or services drive the company's net sales?",
     "type": "business-overview",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["iphone", "services"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-129"
+    ],
+    "accepted_answer_phrases": [
+      "iphone",
+      "services"
+    ],
     "notes": "Dense retrieval should do well because the wording is semantic."
   },
   {
     "id": "q005",
     "question": "What does the filing say about supply chain and manufacturing risk?",
     "type": "semantic-risk",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["supply", "manufacturing"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-53"
+    ],
+    "accepted_answer_phrases": [
+      "supply",
+      "manufacturing"
+    ],
     "notes": "Good for testing heading-aware Item 1A chunks."
   },
   {
     "id": "q006",
     "question": "What was the company's effective tax rate?",
     "type": "exact-number",
-    "company_scope": ["AAPL"],
-    "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["effective tax rate"],
+    "company_scope": [
+      "AAPL"
+    ],
+    "relevant_chunk_ids": [
+      "section-141",
+      "section-110"
+    ],
+    "accepted_answer_phrases": [
+      "effective tax rate"
+    ],
     "notes": "Good BM25 test because the exact accounting phrase matters."
   },
   {
     "id": "q007",
     "question": "What liquidity resources does the company describe?",
     "type": "finance-discussion",
-    "company_scope": ["AAPL"],
+    "company_scope": [
+      "AAPL"
+    ],
     "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["liquidity"],
+    "accepted_answer_phrases": [
+      "liquidity"
+    ],
     "notes": "Usually answered from liquidity and capital resources."
   },
   {
     "id": "q008",
     "question": "What legal proceedings are disclosed?",
     "type": "section-lookup",
-    "company_scope": ["AAPL"],
+    "company_scope": [
+      "AAPL"
+    ],
     "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["legal proceedings"],
+    "accepted_answer_phrases": [
+      "legal proceedings"
+    ],
     "notes": "Heading-aware section labels should help citation quality."
   },
   {
     "id": "q009",
     "question": "What were the company's capital expenditures?",
     "type": "exact-number",
-    "company_scope": ["AAPL"],
+    "company_scope": [
+      "AAPL"
+    ],
     "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["capital expenditures"],
+    "accepted_answer_phrases": [
+      "capital expenditures"
+    ],
     "notes": "Good exact-number retrieval test."
   },
   {
     "id": "q010",
     "question": "Compare NVIDIA and Microsoft on research and development spending.",
     "type": "multi-hop-comparison",
-    "company_scope": ["NVDA", "MSFT"],
+    "company_scope": [
+      "NVDA",
+      "MSFT"
+    ],
     "relevant_chunk_ids": [],
-    "accepted_answer_phrases": ["research and development"],
+    "accepted_answer_phrases": [
+      "research and development"
+    ],
     "notes": "Use after adding NVDA and MSFT filings. Day 9 decomposition should split this."
   }
 ]

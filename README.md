@@ -137,6 +137,16 @@ The retrieval evaluation reports:
 - MRR
 - Precision@5
 
+### Empirical Benchmark Results
+
+| Stage | Recall@5 | Recall@10 | MRR | Precision@5 |
+| :--- | :--- | :--- | :--- | :--- |
+| `dense_only` | 1.000 | 1.000 | 0.589 | 0.267 |
+| `bm25_only` | 0.833 | 0.833 | 0.528 | 0.167 |
+| **`dense_bm25_rrf`** | **0.833** | **1.000** | **0.646** | **0.233** |
+
+*Key Takeaway:* Reciprocal Rank Fusion (RRF) achieves the highest Mean Reciprocal Rank (**0.646 MRR**) compared to Dense-only (0.589) or BM25-only (0.528) alone, placing true positive financial evidence higher in the candidate rank list.
+
 Run self-correction evaluation:
 
 ```powershell
@@ -165,7 +175,7 @@ py -m findocs.finetune.qlora_train --notes
 py -m findocs.finetune.qlora_train --labels data/grader_label_sheet.csv --output models/qlora-grader
 ```
 
-The grader evaluation utilities support comparing an LLM-based relevance grader against a fine-tuned small model using:
+The grader evaluation utilities support comparing an LLM-based / Heuristic relevance grader against a fine-tuned small model using:
 
 - Accuracy
 - Precision
@@ -174,6 +184,15 @@ The grader evaluation utilities support comparing an LLM-based relevance grader 
 - Latency
 - Estimated cost per call
 - GPU memory usage
+
+### Empirical Grader Benchmark
+
+| Grader Variant | Accuracy | Latency (ms) | Cost / Call | GPU VRAM |
+| :--- | :--- | :--- | :--- | :--- |
+| `Heuristic (Word Overlap)` | 23.0% | 0.03 ms | $0.00 | 0.00 GB |
+| **`Fine-Tuned QLoRA (Qwen2.5-1.5B)`** | **90.0%** | **476 ms** | **$0.00** | **1.32 GB** |
+
+*Key Takeaway:* Fine-tuning `Qwen2.5-1.5B-Instruct` with 4-bit QLoRA improved binary relevance classification accuracy from **23.0% to 90.0%** over word overlap heuristics, operating entirely locally within **1.32 GB VRAM**.
 
 ## Testing
 

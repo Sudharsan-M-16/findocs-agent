@@ -107,6 +107,36 @@ def label_candidates(companies: str, email: str | None, questions_path: str, out
     print(f"wrote {len(rows)} candidate rows to {output_path}")
 
 
+def show_candidates(label_sheet: str, question_id: str) -> None:
+    """Print candidates for one question so manual labels are easier to assign."""
+
+    import csv
+
+    with Path(label_sheet).open(encoding="utf-8") as handle:
+        rows = [row for row in csv.DictReader(handle) if row["question_id"] == question_id]
+    if not rows:
+        raise ValueError(f"No rows found for {question_id} in {label_sheet}.")
+    for row in rows:
+        print(f"\n{row['question_id']} rank={row['rank']} chunk={row['chunk_id']} section={row['section']} label={row['label']}")
+        print(row["chunk_text"][:1200])
+
+
+def sync_labels(questions_path: str, label_sheet: str, output_path: str) -> None:
+    """Copy relevant chunk IDs from a completed label sheet into eval JSON."""
+
+    from findocs.finetune.dataset import relevant_ids_by_question
+
+    questions = load_questions(questions_path)
+    labels = relevant_ids_by_question(label_sheet)
+    for question in questions:
+        if question["id"] in labels:
+            question["relevant_chunk_ids"] = labels[question["id"]]
+    with Path(output_path).open("w", encoding="utf-8") as handle:
+        json.dump(questions, handle, indent=2)
+        handle.write("\n")
+    print(f"updated {output_path}")
+
+
 def eval_retrieval(companies: str, email: str | None, questions_path: str, output_path: str, use_reranker: bool) -> None:
     """Run dense/BM25/RRF/reranker ablations and save resume-ready metrics."""
 
@@ -182,6 +212,15 @@ def main() -> None:
     label_parser.add_argument("--questions", default="data/eval_questions.json")
     label_parser.add_argument("--output", default="data/grader_label_sheet.csv")
 
+    show_parser = sub.add_parser("show-candidates")
+    show_parser.add_argument("--labels", default="data/grader_label_sheet.csv")
+    show_parser.add_argument("--question-id", required=True)
+
+    sync_parser = sub.add_parser("sync-labels")
+    sync_parser.add_argument("--questions", default="data/eval_questions.json")
+    sync_parser.add_argument("--labels", default="data/grader_label_sheet.csv")
+    sync_parser.add_argument("--output", default="data/eval_questions.json")
+
     eval_parser = sub.add_parser("eval-retrieval")
     eval_parser.add_argument("--companies", default="AAPL")
     eval_parser.add_argument("--email")
@@ -207,6 +246,10 @@ def main() -> None:
         ask(args.company, args.email, args.question, args.rerank)
     elif args.command == "label-candidates":
         label_candidates(args.companies, args.email, args.questions, args.output)
+    elif args.command == "show-candidates":
+        show_candidates(args.labels, args.question_id)
+    elif args.command == "sync-labels":
+        sync_labels(args.questions, args.labels, args.output)
     elif args.command == "eval-retrieval":
         eval_retrieval(args.companies, args.email, args.questions, args.output, args.rerank)
     elif args.command == "eval-correction":
