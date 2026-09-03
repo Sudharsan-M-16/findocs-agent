@@ -1,0 +1,6 @@
+unsloth
+trl
+peft
+accelerate
+datasets
+bitsandbytes
