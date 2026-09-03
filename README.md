@@ -1,24 +1,75 @@
 # FinDocs Agent
 
-FinDocs is an agentic research system over SEC 10-K filings. It is built to be explainable, measurable, and defensible in interviews: every retrieval stage can be compared, the corrective loop can be measured, and citation support can be checked.
+FinDocs Agent is an agentic research assistant for SEC 10-K filings. It combines hybrid retrieval, reranking, self-correction, and citation verification to answer financial-document questions with traceable supporting evidence.
 
-## What It Builds
+The system is designed for company filings where simple keyword search is not enough: questions may involve exact figures, paraphrased business descriptions, risk disclosures, or comparisons across companies.
 
-The current repo covers Days 0-10 of the roadmap:
+## Features
 
-1. SEC filing ingestion and text cleanup.
-2. Naive chunking and heading-aware SEC Item chunking.
-3. Dense retrieval with sentence-transformer embeddings.
-4. BM25 keyword retrieval.
-5. Reciprocal Rank Fusion over dense and BM25 rankings.
-6. Optional cross-encoder reranking over the hybrid candidates.
-7. A bounded retrieve, grade, rewrite, retrieve, answer graph.
-8. Claim verification and citation formatting.
-9. QLoRA grader dataset and training scaffold.
-10. Multi-company query decomposition.
-11. Retrieval, self-correction, citation, and grader evaluation utilities.
+- SEC EDGAR ingestion for supported public companies
+- Filing-aware chunking using SEC Item sections
+- Dense semantic retrieval with sentence-transformer embeddings
+- Sparse keyword retrieval with BM25
+- Reciprocal Rank Fusion (RRF) for hybrid dense + sparse retrieval
+- Optional cross-encoder reranking over retrieved candidates
+- Bounded retrieve-grade-rewrite loop using LangGraph
+- Citation formatting and claim-support verification
+- Multi-company query decomposition for comparative research
+- Evaluation utilities for retrieval quality, answer accuracy, self-correction, citation correctness, and grader performance
+- QLoRA relevance-grader training scaffold for replacing an expensive LLM-based retrieval grader
 
-## Quick Start
+## Architecture
+
+```text
+User question
+    |
+    v
+Query decomposition
+    |
+    v
+Dense retrieval + BM25 retrieval
+    |
+    v
+Reciprocal Rank Fusion
+    |
+    v
+Cross-encoder reranking
+    |
+    v
+Retrieved evidence
+    |
+    v
+Retrieval grader
+    |
+    +-- insufficient evidence --> query rewrite --> retrieve again
+    |
+    v
+Answer generation
+    |
+    v
+Claim verification + citations
+```
+
+## Repository Structure
+
+```text
+findocs-agent/
+|-- data/                  # Local filings and evaluation question files
+|-- docs/                  # Implementation notes and code walkthroughs
+|-- results/               # Generated evaluation outputs
+|-- src/findocs/
+|   |-- agent/             # Graph, answer formatting, verification, decomposition
+|   |-- eval/              # Metrics, ablation runners, correction evaluation
+|   |-- finetune/          # QLoRA grader dataset/training/evaluation utilities
+|   |-- ingest/            # SEC EDGAR loading and filing chunking
+|   `-- retrieval/         # Dense, BM25, RRF hybrid retrieval, reranking
+|-- tests/                 # Offline unit tests
+|-- requirements.txt
+|-- requirements-qlora.txt
+`-- pyproject.toml
+```
+
+## Setup
 
 ```powershell
 py -m venv .venv
@@ -26,56 +77,87 @@ py -m venv .venv
 pip install -r requirements.txt
 pip install -e .
 $env:PYTHONPATH='src'
+```
+
+Run the lightweight smoke test:
+
+```powershell
 py -m findocs.cli smoke
 ```
 
-For local Apple data already in `data/apple_10k.txt`:
+## Usage
+
+Run retrieval over a locally available filing:
 
 ```powershell
 py -m findocs.cli run --company AAPL
+```
+
+Ask a question through the agent:
+
+```powershell
 py -m findocs.cli ask --company AAPL --question "What are Apple's main risk factors?"
 ```
 
-To download a missing filing from SEC EDGAR, pass a real identifying email:
+Enable cross-encoder reranking:
+
+```powershell
+py -m findocs.cli ask --company AAPL --question "What are Apple's main risk factors?" --rerank
+```
+
+Download a missing filing from SEC EDGAR:
 
 ```powershell
 py -m findocs.cli run --company MSFT --email your.name@example.com
 ```
 
-SEC requires an identifying User-Agent. The code uses your email for that header.
+SEC EDGAR requires an identifying User-Agent. The project uses the provided email address for that request header.
 
-## Evaluation Commands
+## Evaluation
 
-Create a labeling sheet for retrieval labels and QLoRA relevance-grader data:
+Generate a candidate-labeling sheet:
 
 ```powershell
 py -m findocs.cli label-candidates --companies AAPL --output data/grader_label_sheet.csv
 ```
 
-Then fill the `label` column manually with `1` for relevant and `0` for irrelevant. Also copy the relevant chunk IDs into `data/eval_questions.json`.
+Fill the `label` column with `1` for relevant chunks and `0` for irrelevant chunks. Then copy the relevant chunk IDs into `data/eval_questions.json`.
 
-Run retrieval-stage ablations:
+Run retrieval ablations:
 
 ```powershell
 py -m findocs.cli eval-retrieval --companies AAPL --output results/retrieval_ablation.csv
 py -m findocs.cli eval-retrieval --companies AAPL --rerank --output results/retrieval_ablation.csv
 ```
 
-Run retry vs no-retry evaluation:
+The retrieval evaluation reports:
+
+- Recall@5
+- Recall@10
+- MRR
+- Precision@5
+
+Run self-correction evaluation:
 
 ```powershell
 py -m findocs.cli eval-correction --companies AAPL --output results/self_correction.csv
 ```
 
-Test Day 9 decomposition:
+This compares answer accuracy and citation correctness with retries disabled versus enabled.
+
+## Multi-Company Questions
+
+The query decomposer can split comparison questions into company-specific sub-queries:
 
 ```powershell
 py -m findocs.cli decompose --question "Compare NVIDIA and Microsoft on research and development spending."
 ```
 
-## QLoRA Grader
+For full multi-company evaluation, add the relevant filings locally or download them with SEC EDGAR using `--email`.
 
-The normal project dependencies do not install GPU training packages. For Day 7-8 training:
+## QLoRA Relevance Grader
+
+The QLoRA training dependencies are separated from the main runtime dependencies because they require GPU-specific packages.
 
 ```powershell
 pip install -r requirements-qlora.txt
@@ -83,14 +165,28 @@ py -m findocs.finetune.qlora_train --notes
 py -m findocs.finetune.qlora_train --labels data/grader_label_sheet.csv --output models/qlora-grader
 ```
 
-The QLoRA script is isolated so the rest of the project remains runnable on machines without Unsloth, bitsandbytes, or a CUDA setup.
+The grader evaluation utilities support comparing an LLM-based relevance grader against a fine-tuned small model using:
 
-## Ownership Map
+- Accuracy
+- Precision
+- Recall
+- F1
+- Latency
+- Estimated cost per call
+- GPU memory usage
 
-You wrote or can defend the SEC heading parser, chunk metadata model, RRF fusion logic, graph control flow, rewrite policy, query decomposition, label dataset format, citation verifier, and evaluation harness.
+## Testing
 
-The project uses sentence-transformers for embeddings, rank-bm25 for BM25, sentence-transformers CrossEncoder for reranking, LangGraph for graph execution, and Unsloth/TRL/PEFT for QLoRA training.
+```powershell
+$env:PYTHONPATH='src'
+py -m compileall -q src
+py -m unittest discover -s tests -v
+```
 
-## Do Not Fake These Numbers
+## Current Limitations
 
-`data/eval_questions.json` intentionally ships with empty `relevant_chunk_ids`. Fill them only after inspecting retrieved chunks. The ablation runner refuses to produce retrieval metrics for unlabeled questions because fake labels create fake resume bullets.
+- Evaluation metrics require hand-labeled relevant chunk IDs before results are meaningful.
+- The default answer generator is conservative and extractive.
+- Citation verification currently uses lexical overlap as a transparent baseline, not full natural-language entailment.
+- QLoRA training requires a CUDA-compatible environment and completed relevance labels.
+- Multi-company comparisons require filings for each company to be present in the corpus.
