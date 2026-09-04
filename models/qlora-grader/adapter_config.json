@@ -36,12 +36,12 @@
   "revision": null,
   "target_modules": [
     "o_proj",
-    "down_proj",
     "v_proj",
-    "gate_proj",
     "up_proj",
-    "q_proj",
-    "k_proj"
+    "k_proj",
+    "gate_proj",
+    "down_proj",
+    "q_proj"
   ],
   "target_parameters": null,
   "task_type": "CAUSAL_LM",

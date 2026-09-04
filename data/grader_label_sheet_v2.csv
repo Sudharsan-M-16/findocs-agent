@@ -1,0 +1,923 @@
+question_id,question,chunk_id,company,section,rank,label,chunk_text
+q001,What are the company's main risk factors?,section-53,AAPL,ITEM 8,1,,"sputes and conflicts further escalate, actions by governments in response could be significantly more severe and restrictive.
+Many of the Company’s operations, retail stores and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations, retail stores and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control.
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas.
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely af"
+q001,What are the company's main risk factors?,section-47,AAPL,ITEM 1A,2,,"Item 1A.    Risk Factors
+The following summarizes factors that could have a material adverse effect on the Company’s business, reputation, results of operations, financial condition and stock price. The Company may not be able to accurately predict, control or mitigate these risks. Statements in this section are based on the Company’s beliefs and opinions regarding matters that could materially adversely affect the Company in the future and are not representations as to whether such matters have or have not occurred previously. The risks and uncertainties described below are not exhaustive and should not be considered a complete statement of all potential risks or uncertainties that the Company faces or may face in the future.
+This section should be read in conjunction with Part II, "
+q001,What are the company's main risk factors?,section-57,NVDA,ITEM 1A,3,,"Item 1A. Risk Factors The following risk factors should be considered in addition to the other information in this Annual Report on Form 10-K. The following risks could harm our business, financial condition, results of operations or reputation, which could cause our stock price to decline. Additional risks, trends and uncertainties not presently known to us or that we currently believe are immaterial may also harm our business, financial condition, results of operations or reputation. Risk Factors Summary Risks Related to Our Industry and Markets • Failure to meet the evolving needs of our industry and markets may adversely impact our financial results. • Competition could adversely impact our market share and financial results. Risks Related to Demand, Supply, and Manufacturing • Long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately has led and could lead to mismatches between supply and demand. 12 Table of Contents • Dependency on third-party suppliers and their technology to manufacture, assemble, test, or package our products reduces our control over product quantity and quality, manufacturing yields, and product delivery schedules and could harm our business. • Defects in our products have caused and could cause us to incur significant expenses to remediate and could damage our business. Risks Related to Our Global Operating Business • Adverse economic conditions may harm our business. • International sales and operations are a significant part of our business, which exposes us to risks that could harm our business. • Product, system security and data protection incidents or breaches, as well as cyber-attacks could disrupt our operations and adversely affect our financial condit"
+q001,What are the company's main risk factors?,section-129,AAPL,ITEM 8,4,,"rol transfers when products are shipped. For the Company’s Services net sales, control transfers over time as services are delivered. Payment for Products and Services net sales is collected within a short period following transfer of control or commencement of delivery of services, as applicable.
+The Company records reductions to Products net sales related to future product returns, price protection and other customer incentive programs based on the Company’s expectations and historical experience.
+For arrangements with multiple performance obligations, which represent promises within an arrangement that are distinct, the Company allocates revenue to all distinct performance obligations based on their relative stand-alone selling prices (“SSPs”). When available, the Company uses observable prices to determine SSPs. When observable prices are not available, SSPs are established that reflect the Company’s best estimates of what the selling prices of the performance obligations would be if they were sold regularly on a stand-alone basis. The Company’s process for estimating SSPs without observable prices considers multiple factors that may vary depending upon the unique facts and circumstances related to each performance obligation including, where applicable, prices charged by the Company for similar offerings, market trends in the pricing for similar offerings, product-specific business objectives and the estimated cost to provide the performance obligation.
+The Company has identified the performance obligations regularly included in arrangements involving the sale of iPhone, Mac and iPad. The first material performance obligation, which represents the substantial portion of the allocated sales price, is the hardware and bundled software delivered at the time of sale. T"
+q001,What are the company's main risk factors?,section-5,NVDA,ITEM 1A,5,,Item 1A. Risk Factors 12 
+q001,What are the company's main risk factors?,section-24,NVDA,ITEM 15,6,," 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management's beliefs and assumptions and on information currently available to our management. In some cases, you can identify forward-looking statements by terms such as “may,” “will,” “should,” “could,” “goal,” “would,” “expect,” “plan,” “anticipate,” “believe,” “estimate,” “project,” “predict,” “potential,” and similar expressions intended to identify forward-looking statements. These statements involve known and unknown risks, uncertainties and other factors, which may cause our actual results, performance, time frames or achievements to be materially different from any future results, performance, time frames or achievements expressed or implied by the forward-looking statements. We discuss many of these risks, uncertainties, and other factors in this Annual Report on Form 10-K in greater detail under the heading “Risk Factors.” Given these risks, uncertainties, and other factors, you should not place undue reliance on these forward-looking statements. Also, these forward-looking statements represent our estimates and assumptions only as of the date of this filing. You should read this Annual Report on Form 10-K completely and understand that our actual future results may be materially different from what we expect. We hereby qualify our forward-looking statements by these cautionary statements. Except as required by law, we assume no obligation to update these forward-looking statements publicly, or to update the reasons actual results could differ materially from those anticipated in these forward-looking statements, even if new information becomes available in the future. All references to “NVIDIA,” “we,” “us,” “our,” or the “Company"
+q001,What are the company's main risk factors?,section-14,AAPL,ITEM 1A,7,,"Item 1A.
+Risk Factors
+5
+"
+q001,What are the company's main risk factors?,section-106,AAPL,ITEM 7,8,,"aiwan, Vietnam and the EU, among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. Various modifications to the U.S. Tariffs have been announced and further changes could be made in the future, which may include additional sector-based tariffs or other measures. For example, the U.S. Department of Commerce has initiated an investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into, among other things, imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors. Tariffs and other measures that are applied to the Company’s products or their components can have a material adverse impact on the Company’s business, results of operations and financial condition, including impacting the Company’s supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company’s products and services, all of which can further adversely affect the Company’s business and results of operations.
+Segment Operating Performance
+The following table shows net sales by reportable segment for 2025, 2024 and 202"
+q001,What are the company's main risk factors?,section-4,MSFT,ITEM 1A,9,,Item 1A. Risk Factors 14 
+q001,What are the company's main risk factors?,section-125,MSFT,ITEM 1B,10,,"cation plans, as applicable. Engineering and development resources are mobilized to resolve or remediate the incident. Following resolution, we conduct post incident reviews for incidents that meet established criteria to capture learnings and strengthen our processes. We describe the risks from cybersecurity threats, including previous cybersecurity incidents, in section “Risk Factors” (Part I, "
+q002,What was research and development spending in the latest fiscal year?,section-161,NVDA,ITEM 7,1,," % Change ($ in millions) Research and development $ 18,497 $ 12,914 $ 5,583 43 % Sales, general and administrative 4,579 3,491 1,088 31 % Total operating expenses $ 23,076 $ 16,405 $ 6,671 41 % The increases in research and development expenses for fiscal year 2026 were driven by a 29% increase in compensation and benefits expense, including stock-based compensation, reflecting employee growth and compensation increases and a 79% increase in compute and infrastructure. 41 Table of Contents The increases in sales, general and administrative expenses for fiscal year 2026 were primarily driven by compensation and benefits expense, including stock-based compensation, reflecting employee growth and compensation increases. Total Other Income, Net Year Ended Jan 25, 2026 Jan 26, 2025 $ Change ($ in millions) Interest income $ 2,300 $ 1,786 $ 514 Interest expense (259) (247) (12) Other income, net 9,022 1,034 7,988 Total other income, net $ 11,063 $ 2,573 $ 8,490 The increase in interest income was primarily due to growth in cash, cash equivalents, and debt securities. Interest expense is primarily comprised of coupon interest and debt discount amortization related to our notes. Other income, net primarily consists of realized or unrealized gains and losses from investments in non-marketable equity securities, publicly-held equity securities, and the impact of changes in foreign currency rates. The change in Other income, net, compared to fiscal year 2025, was primarily driven by unrealized gains in non-marketable and publicly-held equity securities, including gains from our previously announced investment in Intel’s common stock. Refer to Note 7 and 8 of the Notes to the Consolidated Financial Statements in Part IV, "
+q002,What was research and development spending in the latest fiscal year?,section-158,MSFT,ITEM 7,2,,"Item 7 Operating income increased $220 million or 2%. • Cost of revenue decreased $1.8 billion or 7% driven by lower hardware sales. • Gross margin increased $1.2 billion or 4% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses. • Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio. Operating income included a favorable foreign currency impact of 2%. OPERATING EXPENSES Research and Development (In millions, except percentages) 2026 2025 Percentage Change Research and development $ 35,562 $ 32,488 9% As a percent of revenue 11% 12% (1)ppt Research and development expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with product development. Research and development expenses also include technology development costs, including AI training and other infrastructure costs, third-party development and programming costs, and the depreciation and amortization of assets used to conduct research and development. Fiscal Year 2026 Compared with Fiscal Year 2025 Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as impairment and other related expenses in our XBOX business. Sales and Marketing (In millions, except percentages) 2026 2025 Percentage Change Sales and marketing $ 26,710 $ 25,654 4% As a percent of revenue 8% 9% (1)ppt Sales and ma"
+q002,What was research and development spending in the latest fiscal year?,section-163,NVDA,ITEM 15,3,,"Item 15 of this Annual Report on Form 10-K for additional information regarding our non-marketable equity securities. Income Taxes Income tax expense was $21.4 billion and $11.1 billion for fiscal years 2026 and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively. The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation, FDDEI, and U.S. federal research tax credit relative to the increase in income before income tax. Our effective tax rates for fiscal years 2026 and 2025 were lower than the U.S. federal statutory rate of 21.0% primarily due to tax benefits from FDDEI, stock-based compensation, income earned in jurisdictions that are subject to taxes at rates lower than the U.S. federal statutory tax rate, and the U.S. federal research tax credit. In July 2025, the One Big Beautiful Bill Act (OBBBA) was enacted into law and contains several changes to key U.S. federal income tax laws. We have recognized the tax effects of currently effective OBBBA provisions in our results for fiscal year 2026. We will continue to evaluate the impact of these legislative changes as tax authorities provide additional guidance and interpretation. As of January 25, 2026, based on recent jurisdictional taxable income and expected future earnings, we concluded certain state deferred tax assets are more likely than not realizable and released $711 million of valuation allowance. Refer to Note 13 of the Notes to the Consolidated Financial Statements in Part IV, "
+q002,What was research and development spending in the latest fiscal year?,section-150,NVDA,ITEM 1A,4,,"Item 1A. Risk Factors – Risks Related to Regulatory, Legal, Our Stock and Other Matters” for a further discussion of the potential impact of these factors on our business. Fiscal Year 2026 Summary Year Ended Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67% Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago. Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated computing and AI. Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond. Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark. Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms. Gross margin decreased in fiscal year 2026 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions. The gross margin decrease was also impacted by a $4.5 billion charge associated with H20 excess inventory and purchase obligations. Operating expenses for fiscal year 2026 were up 41% from a year ago, driven by higher compensation and benefits expenses due to employee growth and compute and infrastructure costs. 37 Table of Contents Critical Accounting Estimates Our co"
+q002,What was research and development spending in the latest fiscal year?,section-160,NVDA,ITEM 7,5,,"t of revenue consists of the cost of semiconductors, including wafer fabrication, assembly, testing and packaging, board and device costs, manufacturing support costs, including labor and overhead associated with such purchases, final test yield fallout, inventory and warranty provisions, memory and component costs, tariffs, and shipping costs. Cost of revenue also includes acquisition-related intangible amortization expense, costs for license and development and service arrangements, IP-related costs, and stock-based compensation related to personnel associated with manufacturing operations. Gross margins decreased to 71.1% in fiscal year 2026 from 75.0% in fiscal year 2025 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions and a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026. Provisions for inventory and excess inventory purchase obligations totaled $7.2 billion and $3.7 billion for fiscal years 2026 and 2025, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations for the first quarter of fiscal year 2026. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $1.5 billion and $689 million for fiscal years 2026 and 2025, respectively. The net effect on our gross margin was an unfavorable impact of 2.6% and 2.3% in fiscal years 2026 and 2025, respectively. Operating Expenses Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Research and development $ 18,497 $ 12,914 $ 5,583 43 % Sales, general and administrative 4,579 3,491 1,088 31 % Total operating expenses $ 23,076 $ 16,405 $ 6,671 41 % The i"
+q002,What was research and development spending in the latest fiscal year?,section-171,NVDA,ITEM 1A,6,,"Item 1A. Risk Factors for additional information regarding our investments. During fiscal year 2026 and fiscal year 2025, we spent $6.1 billion and $3.4 billion on capital expenditures, respectively. We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business. Unrecognized tax benefits of $4.0 billion, which includes related interest and penalties of $374 million, were recorded in non-current income tax payable at the end of fiscal year 2026. We are unable to estimate the timing of any potential tax liability, interest payments, or penalties in individual years due to uncertainties in the underlying income tax positions and the timing of the effective settlement of such tax positions. We are currently under examination by the Internal Revenue Service for our fiscal years 2023 and 2024. Refer to Note 13 of the Notes to the Consolidated Financial Statements in Part IV, "
+q002,What was research and development spending in the latest fiscal year?,section-242,NVDA,ITEM 9A,7,,"al Statements (Continued) The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21% to income before income taxes for fiscal years ended January 26, 2025 and January 28, 2024 as follows: Year Ended Jan 26, 2025 Jan 28, 2024 (In millions, except percentages) Tax expense computed at federal statutory rate $ 17,645 21.0 % $ 7,102 21.0 % Expense (benefit) resulting from: State income taxes, net of federal tax effect 554 0.7 % 120 0.4 % Foreign-derived deduction eligible income ( 2,976 ) ( 3.5 ) % ( 1,408 ) ( 4.2 ) % Stock-based compensation ( 2,097 ) ( 2.5 ) % ( 741 ) ( 2.2 ) % U.S. federal research and development tax credit ( 990 ) ( 1.2 ) % ( 431 ) ( 1.3 ) % Foreign tax rate differential ( 984 ) ( 1.2 ) % ( 467 ) ( 1.4 ) % Other ( 6 ) — % ( 117 ) ( 0.3 ) % Income tax expense $ 11,146 13.3 % $ 4,058 12.0 % In July 2025, the OBBBA was enacted into law and contains several changes to key U.S. federal income tax laws. We have recognized the tax effects of currently effective OBBBA provisions in our results for fiscal year 2026. The amount of cash paid for income taxes (net of refunds) for the fiscal year ended January 25, 2026 is as follows: Year Ended Jan 25, 2026 (In millions) Federal $ 16,755 State California 1,049 Other 1,041 Foreign Israel 1,287 Other 156 Total income taxes paid, net of refunds $ 20,288 74 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Financial Statements (Continued) The tax effect of temporary differences that gives rise to significant portions of the deferred tax assets and liabilities are presented below: Jan 25, 2026 Jan 26, 2025 (In millions) Deferred tax assets: Capitalized research and development expenditure $ 5,436 $ 6,256 Net controlled foreign corpora"
+q002,What was research and development spending in the latest fiscal year?,section-157,NVDA,ITEM 7,8,,"Item 7 in our Annual Report on Form 10-K for the fiscal year ended January 26, 2025, filed with the SEC on February 26, 2025, which is available free of charge on the SEC’s website at http://www.sec.gov and at our investor relations website, http://investor.nvidia.com. 39 Table of Contents The following table sets forth, for the periods indicated, certain items in our Consolidated Statements of Income expressed as a percentage of revenue. Year Ended Jan 25, 2026 Jan 26, 2025 Revenue 100.0 % 100.0 % Cost of revenue 28.9 25.0 Gross profit 71.1 75.0 Operating expenses Research and development 8.6 9.9 Sales, general and administrative 2.1 2.7 Total operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net 4.2 0.8 Total other income, net 5.2 2.0 Income before income tax 65.5 64.4 Income tax expense 9.9 8.6 Net income 55.6 % 55.8 % Reportable Segments Revenue by Reportable Segments Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Compute & Networking $ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 % Operating Income by Reportable Segments Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Compute & Networking $ 130,141 $ 82,875 $ 47,266 57 % Graphics 9,156 5,085 4,071 80 % Total $ 139,297 $ 87,960 $ 51,337 58 % Compute & Networking revenue – The year over year increase was driven by the major platform shifts – accelerated computing and AI. Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and "
+q002,What was research and development spending in the latest fiscal year?,section-144,MSFT,ITEM 7,9,,"t and services revenue decreased 5%. • Search advertising (formerly Search and news advertising) revenue excluding traffic acquisition costs increased 12%. Industry Trends and Opportunities Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces. We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI’s intellectual property, including models and infrastructure, for integration into our products. 34 PART II "
+q002,What was research and development spending in the latest fiscal year?,section-104,AAPL,ITEM 8,10,,"Item 8 of this Form 10-K. This Item generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, "
+q003,How did revenue change compared with the prior year?,section-154,MSFT,ITEM 7,1,,"Item 7 Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $3.6 billion and $0.49, respectively. SEGMENT RESULTS OF OPERATIONS (In millions, except percentages) 2026 2025 Percentage Change Productivity and Business Processes Revenue $ 139,996 $ 120,810 16% Cost of revenue 25,017 22,422 12% Operating expenses 31,100 28,615 9% Operating income $ 83,879 $ 69,773 20% Intelligent Cloud Revenue $ 137,791 $ 106,265 30% Cost of revenue 57,876 40,171 44% Operating expenses 22,943 21,505 7% Operating income $ 56,972 $ 44,589 28% More Personal Computing Revenue $ 54,052 $ 54,649 (1)% Cost of revenue 23,481 25,238 (7)% Operating expenses 16,185 15,245 6% Operating income $ 14,386 $ 14,166 2% Total Revenue $ 331,839 $ 281,724 18% Cost of revenue 106,374 87,831 21% Operating expenses 70,228 65,365 7% Operating income $ 155,237 $ 128,528 21% Reportable Segments Fiscal Year 2026 Compared with Fiscal Year 2025 Productivity and Business Processes Revenue increased $19.2 billion or 16%. • Microsoft 365 Commercial products and cloud services revenue increased $14.2 billion or 16%. Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5. Microsoft 365 Commercial seats grew 6% driven by small and medium businesses and frontline worker offerings. Microsoft 365 Commercial products revenue grew 13% driven by growth in the Windows Commercial on-premises components of Microsoft 365 suite sales, as well as"
+q003,How did revenue change compared with the prior year?,section-159,MSFT,ITEM 7,2,,"enses in our XBOX business. Sales and Marketing (In millions, except percentages) 2026 2025 Percentage Change Sales and marketing $ 26,710 $ 25,654 4% As a percent of revenue 8% 9% (1)ppt Sales and marketing expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with sales and marketing personnel, and the costs of advertising, promotions, trade shows, seminars, and other programs. Fiscal Year 2026 Compared with Fiscal Year 2025 Sales and marketing expenses increased $1.1 billion or 4% driven by investments in commercial sales and higher Copilot advertising expenses. General and Administrative (In millions, except percentages) 2026 2025 Percentage Change General and administrative $ 7,956 $ 7,223 10% As a percent of revenue 2% 3% (1)ppt General and administrative expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with finance, legal, facilities, certain human resources and other administrative personnel, certain taxes, and legal and other administrative fees. 40 PART II "
+q003,How did revenue change compared with the prior year?,section-161,NVDA,ITEM 7,3,," % Change ($ in millions) Research and development $ 18,497 $ 12,914 $ 5,583 43 % Sales, general and administrative 4,579 3,491 1,088 31 % Total operating expenses $ 23,076 $ 16,405 $ 6,671 41 % The increases in research and development expenses for fiscal year 2026 were driven by a 29% increase in compensation and benefits expense, including stock-based compensation, reflecting employee growth and compensation increases and a 79% increase in compute and infrastructure. 41 Table of Contents The increases in sales, general and administrative expenses for fiscal year 2026 were primarily driven by compensation and benefits expense, including stock-based compensation, reflecting employee growth and compensation increases. Total Other Income, Net Year Ended Jan 25, 2026 Jan 26, 2025 $ Change ($ in millions) Interest income $ 2,300 $ 1,786 $ 514 Interest expense (259) (247) (12) Other income, net 9,022 1,034 7,988 Total other income, net $ 11,063 $ 2,573 $ 8,490 The increase in interest income was primarily due to growth in cash, cash equivalents, and debt securities. Interest expense is primarily comprised of coupon interest and debt discount amortization related to our notes. Other income, net primarily consists of realized or unrealized gains and losses from investments in non-marketable equity securities, publicly-held equity securities, and the impact of changes in foreign currency rates. The change in Other income, net, compared to fiscal year 2025, was primarily driven by unrealized gains in non-marketable and publicly-held equity securities, including gains from our previously announced investment in Intel’s common stock. Refer to Note 7 and 8 of the Notes to the Consolidated Financial Statements in Part IV, "
+q003,How did revenue change compared with the prior year?,section-157,NVDA,ITEM 7,4,,"Item 7 in our Annual Report on Form 10-K for the fiscal year ended January 26, 2025, filed with the SEC on February 26, 2025, which is available free of charge on the SEC’s website at http://www.sec.gov and at our investor relations website, http://investor.nvidia.com. 39 Table of Contents The following table sets forth, for the periods indicated, certain items in our Consolidated Statements of Income expressed as a percentage of revenue. Year Ended Jan 25, 2026 Jan 26, 2025 Revenue 100.0 % 100.0 % Cost of revenue 28.9 25.0 Gross profit 71.1 75.0 Operating expenses Research and development 8.6 9.9 Sales, general and administrative 2.1 2.7 Total operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net 4.2 0.8 Total other income, net 5.2 2.0 Income before income tax 65.5 64.4 Income tax expense 9.9 8.6 Net income 55.6 % 55.8 % Reportable Segments Revenue by Reportable Segments Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Compute & Networking $ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 % Operating Income by Reportable Segments Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Compute & Networking $ 130,141 $ 82,875 $ 47,266 57 % Graphics 9,156 5,085 4,071 80 % Total $ 139,297 $ 87,960 $ 51,337 58 % Compute & Networking revenue – The year over year increase was driven by the major platform shifts – accelerated computing and AI. Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and "
+q003,How did revenue change compared with the prior year?,section-107,AAPL,ITEM 7,5,,"l of which can further adversely affect the Company’s business and results of operations.
+Segment Operating Performance
+The following table shows net sales by reportable segment for 2025, 2024 and 2023 (dollars in millions):
+2025
+Change
+2024
+Change
+2023
+Americas
+$
+178,353 
+7 
+%
+$
+167,045 
+3 
+%
+$
+162,560 
+Europe
+111,032 
+10 
+%
+101,328 
+7 
+%
+94,294 
+Greater China
+64,377 
+(4)
+%
+66,952 
+(8)
+%
+72,559 
+Japan
+28,703 
+15 
+%
+25,052 
+3 
+%
+24,257 
+Rest of Asia Pacific
+33,696 
+10 
+%
+30,658 
+4 
+%
+29,615 
+Total net sales
+$
+416,161 
+6 
+%
+$
+391,035 
+2 
+%
+$
+383,285 
+Americas
+Americas net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone and Services. The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during 2025.
+Europe
+Europe net sales increased during 2025 compared to 2024 primarily due to higher net sales of Services, iPhone and Mac.
+Greater China
+Greater China net sales decreased during 2025 compared to 2024 primarily due to lower net sales of iPhone, partially offset by higher net sales of Mac.
+Japan
+Japan net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and iPad.
+Rest of Asia Pacific
+Rest of Asia Pacific net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and Mac.
+Apple Inc. | 2025 Form 10-K | 22
+Products and Services Performance
+The following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):
+2025
+Change
+2024
+Change
+2023
+iPhone
+$
+209,586 
+4 
+%
+$
+201,183 
+— 
+%
+$
+200,583 
+Mac
+33,708 
+12 
+%
+29,984 
+2 
+%
+29,357 
+iPad
+28,023 
+5 
+%
+26,694 
+(6)
+%
+28,300 
+Wearables, Home and Accessories
+35,686 
+(4)
+%
+37,005 
+(7)
+%
+39,845 
+Services 
+(1)
+109,158"
+q003,How did revenue change compared with the prior year?,section-150,NVDA,ITEM 1A,6,,"Item 1A. Risk Factors – Risks Related to Regulatory, Legal, Our Stock and Other Matters” for a further discussion of the potential impact of these factors on our business. Fiscal Year 2026 Summary Year Ended Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67% Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago. Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated computing and AI. Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond. Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark. Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms. Gross margin decreased in fiscal year 2026 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions. The gross margin decrease was also impacted by a $4.5 billion charge associated with H20 excess inventory and purchase obligations. Operating expenses for fiscal year 2026 were up 41% from a year ago, driven by higher compensation and benefits expenses due to employee growth and compute and infrastructure costs. 37 Table of Contents Critical Accounting Estimates Our co"
+q003,How did revenue change compared with the prior year?,section-142,MSFT,ITEM 8,7,,"Item 8 of this Form 10-K). This section generally discusses the results of our operations for the year ended June 30, 2026 compared to the year ended June 30, 2025. For a discussion of the year ended June 30, 2025 compared to the year ended June 30, 2024, please refer to Part II, "
+q003,How did revenue change compared with the prior year?,section-166,MSFT,ITEM 7,8,,"od-over-period fluctuations, and independent recalculation of prices where appropriate. Cash Flows Cash from operations increased $46.8 billion to $182.9 billion for fiscal year 2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing increased $847 million to $52.5 billion for fiscal year 2026, primarily due to a $6.0 billion decrease in cash used for repayments of debt, offset in part by a $3.9 billion increase in common stock repurchases and a $2.4 billion increase in dividends paid. Cash used in investing increased $66.9 billion to $139.5 billion for fiscal year 2026, primarily due to a $51.4 billion increase in additions to property and equipment and a $22.2 billion increase in cash used in other investing primarily to facilitate the purchase of components, offset in part by a $4.2 billion decrease in cash used in the acquisition of companies, net of cash acquired and divestitures, and purchases of intangible and other assets and a $2.4 billion decrease in cash used in net investment purchases, sales, and maturities. Debt Proceeds We issue debt to take advantage of favorable pricing and liquidity in the debt markets, reflecting our credit rating. The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt. Refer to Note 10 – Debt of the Notes to Financial Statements (Part II, "
+q003,How did revenue change compared with the prior year?,section-158,MSFT,ITEM 7,9,,"Item 7 Operating income increased $220 million or 2%. • Cost of revenue decreased $1.8 billion or 7% driven by lower hardware sales. • Gross margin increased $1.2 billion or 4% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses. • Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio. Operating income included a favorable foreign currency impact of 2%. OPERATING EXPENSES Research and Development (In millions, except percentages) 2026 2025 Percentage Change Research and development $ 35,562 $ 32,488 9% As a percent of revenue 11% 12% (1)ppt Research and development expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with product development. Research and development expenses also include technology development costs, including AI training and other infrastructure costs, third-party development and programming costs, and the depreciation and amortization of assets used to conduct research and development. Fiscal Year 2026 Compared with Fiscal Year 2025 Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as impairment and other related expenses in our XBOX business. Sales and Marketing (In millions, except percentages) 2026 2025 Percentage Change Sales and marketing $ 26,710 $ 25,654 4% As a percent of revenue 8% 9% (1)ppt Sales and ma"
+q003,How did revenue change compared with the prior year?,section-250,MSFT,ITEM 8,10,,"Item 8 We are subject to income tax in many jurisdictions outside the U.S., some of which are currently under audit by local tax authorities. The resolution of these audits is not expected to be material to our consolidated financial statements. Our operations in Ireland remain subject to examination for tax years 2021 and thereafter . NOTE 12 — UNEARNED REVENUE Unearned revenue by segment was as follows: (In millions) June 30, 2026 2025 Productivity and Business Processes $ 57,936 $ 50,567 Intelligent Cloud 14,942 14,022 More Personal Computing 2,834 2,676 Total $ 75,712 $ 67,265 Changes in unearned revenue were as follows: (In millions) Year Ended June 30, 2026 Balance, beginning of period $ 67,265 Deferral of revenue 194,184 Recognition of unearned revenue ( 185,737 ) Balance, end of period $ 75,712 Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts expected to be invoiced and recognized as revenue in future periods, was $ 684 billion as of June 30, 2026. Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $ 678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years. We expect to recognize approximately 30 % of both our total company remaining performance obligation revenue and commercial remaining performance obligation revenue over the next 12 months and the remainder thereafter. NOTE 13 — LEASES We have operating and finance leases for datacenters, corporate offices, research and development facilities, and certain equipment. Our leases have remaining lease terms of less than 1 year to 20 years, some of which include options to extend the leases for up to 5 years, and some of which include options to terminate the leases within 1 y"
+q004,Which products or services drive the company's net sales?,section-152,AAPL,ITEM 8,1,,"s provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region.
+The CODM uses segment net sales and operating income information to make certain decisions, such as product and service pricing, and to decide how to allocate resources related to sales activities and marketing investments. Net sales for geographic segments are generally based on the location of customers and sales through the Company’s retail stores located in those geographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and operating expenses directly attributable to the segment. The information provided to the CODM for purposes of making decisions and assessing segment performance excludes asset information.
+The following tables show information by reportable segment for 2025, 2024 and 2023 (in millions):
+2025
+Americas
+Europe
+Greater
+China
+Japan
+Rest of
+Asia Pacific
+Corporate
+Total
+Net sales
+$
+178,353
+ 
+$
+111,032
+ 
+$
+64,377
+ 
+$
+28,703
+ 
+$
+33,696
+ 
+$
+— 
+$
+416,161
+ 
+Cost of sales
+(
+95,699
+)
+(
+58,617
+)
+(
+35,141
+)
+(
+13,779
+)
+(
+17,724
+)
+— 
+(
+220,960
+)
+Research and development
+— 
+— 
+— 
+— 
+— 
+(
+34,550
+)
+(
+34,550
+)
+Selling and marketing
+(
+10,174
+)
+(
+4,676
+)
+(
+2,319
+)
+(
+969
+)
+(
+1,386
+)
+— 
+(
+19,524
+)
+General and administrative
+— 
+— 
+— 
+— 
+— 
+(
+8,077
+)
+(
+8,077
+)
+Operating income/(loss)
+$
+72,480
+ 
+$
+47,739
+ 
+$
+26,917
+ 
+$
+13,955
+ 
+$
+14,586
+ 
+$
+(
+42,627
+)
+$
+133,050
+ 
+2024
+Americas
+Europe
+Greater
+China
+Japan
+Rest of
+Asia Pacific
+Corporate
+Total
+Net sales
+$
+167,045
+ 
+$
+101,328
+ 
+$
+66,952
+ 
+$
+25,052
+ 
+$
+30,658
+ 
+$
+— 
+$
+391,035
+ 
+Cost of sales
+(
+89,587
+)
+(
+55,197
+)
+(
+37,519
+)
+(
+11"
+q004,Which products or services drive the company's net sales?,section-131,AAPL,ITEM 8,2,,"oss amount billed to customers. The Company considers multiple factors when determining whether it obtains control of third-party products, including evaluating if it can establish the price of the product, retains inventory risk for tangible products or has the responsibility for ensuring acceptability of the product. For third-party applications sold through the App Store, the Company does not obtain control of the product before transferring it to the customer. Therefore, the Company accounts for all third-party application–related sales on a net basis by recognizing in Services net sales only the commission it retains.
+Apple Inc. | 2025 Form 10-K | 35
+The following table shows disaggregated net sales, as well as the portion of total net sales that was previously deferred, for 2025, 2024 and 2023 (in millions):
+2025
+2024
+2023
+iPhone
+$
+209,586
+ 
+$
+201,183
+ 
+$
+200,583
+ 
+Mac
+33,708
+ 
+29,984
+ 
+29,357
+ 
+iPad
+28,023
+ 
+26,694
+ 
+28,300
+ 
+Wearables, Home and Accessories
+35,686
+ 
+37,005
+ 
+39,845
+ 
+Services 
+(1)
+109,158
+ 
+96,169
+ 
+85,200
+ 
+Total net sales
+$
+416,161
+ 
+$
+391,035
+ 
+$
+383,285
+ 
+Portion of total net sales that was included in deferred revenue as of the beginning of the period
+$
+8,229
+ 
+$
+7,728
+ 
+$
+8,169
+ 
+(1)
+Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.
+The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2025, 2024 and 2023, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.
+As of September 27, 2025 and September 28, 2024, the Company had total deferred revenue of $
+13.7
+ billion and $
+12.8
+ billion, respectively"
+q004,Which products or services drive the company's net sales?,section-38,AAPL,ITEM 1,3,,"The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia, New Zealand and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region.
+Markets and Distribution
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company sells its services in the same markets through its various service platforms. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers and other resellers, for the sale of its products and certain of its services. During 2025, the Company’s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales.
+Competition
+The markets for the Company’s products and services are highly competitive and are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses. The markets in which "
+q004,Which products or services drive the company's net sales?,section-43,AAPL,ITEM 1,4,,"llectual property rights around the world. No single intellectual property right is solely responsible for protecting the Company’s products and services. The Company believes the duration of its intellectual property rights is adequate relative to the expected lives of its products and services.
+Apple Inc. | 2025 Form 10-K | 3
+In addition to Company-owned intellectual property, many of the Company’s products and services include technology or intellectual property that must be licensed from third parties. It may be necessary in the future to seek or renew licenses relating to various aspects of the Company’s products, processes and services. While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all.
+Business Seasonality and Product Introductions
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. The timing of product introductions can also impact the Company’s net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches. Net sales can also be affected when consumers and distributors anticipate a product introduction.
+Human Capital
+The Company believes that its people play an important role in its success, and strives to attract, develop and retain the best talent. The Company works to create a culture of collaboration,"
+q004,Which products or services drive the company's net sales?,section-85,AAPL,ITEM 8,5,,"s margins vary significantly across its products, services, geographic segments and distribution channels and can change over time. The Company’s net sales and gross margins are subject to volatility and downward pressure due to a variety of factors, including: continued industry-wide global product pricing pressures and product pricing actions that the Company may take in response to such pressures; increased competition; the Company’s ability to effectively stimulate demand for certain of its products and services; compressed product life cycles; supply shortages; potential increases in the cost of components, outside manufacturing services, and developing, acquiring and delivering content for the Company’s services; the Company’s ability to manage product quality and warranty costs effectively; shifts in the mix of products and services, or in the geographic, currency or channel mix, including to the extent that regulatory changes require the Company to modify its product and service offerings; fluctuations in foreign exchange rates; inflation and other macroeconomic pressures; the imposition of new or increased tariffs and other trade restrictions, their overall magnitude and duration, and retaliatory actions in response; and the introduction of new products or services, including new products or services with lower profit margins. These and other factors could have a materially adverse impact on the Company’s results of operations, financial condition and stock price. Further, the Company generates a significant portion of its net sales from a single product category and a decline in demand for that product could significantly impact net sales and gross margins.
+The Company’s financial performance is subject to risks associated with changes in the value of the U.S."
+q004,Which products or services drive the company's net sales?,section-129,AAPL,ITEM 8,6,,"rol transfers when products are shipped. For the Company’s Services net sales, control transfers over time as services are delivered. Payment for Products and Services net sales is collected within a short period following transfer of control or commencement of delivery of services, as applicable.
+The Company records reductions to Products net sales related to future product returns, price protection and other customer incentive programs based on the Company’s expectations and historical experience.
+For arrangements with multiple performance obligations, which represent promises within an arrangement that are distinct, the Company allocates revenue to all distinct performance obligations based on their relative stand-alone selling prices (“SSPs”). When available, the Company uses observable prices to determine SSPs. When observable prices are not available, SSPs are established that reflect the Company’s best estimates of what the selling prices of the performance obligations would be if they were sold regularly on a stand-alone basis. The Company’s process for estimating SSPs without observable prices considers multiple factors that may vary depending upon the unique facts and circumstances related to each performance obligation including, where applicable, prices charged by the Company for similar offerings, market trends in the pricing for similar offerings, product-specific business objectives and the estimated cost to provide the performance obligation.
+The Company has identified the performance obligations regularly included in arrangements involving the sale of iPhone, Mac and iPad. The first material performance obligation, which represents the substantial portion of the allocated sales price, is the hardware and bundled software delivered at the time of sale. T"
+q004,Which products or services drive the company's net sales?,section-159,NVDA,ITEM 7,7,,"Networking segment. For fiscal year 2025, sales to one direct customer represented 12% of total revenue and sales to two direct customers each represented 11% of total revenue, all of which were primarily attributable to the Compute & Networking segment. For fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment. Indirect Customers – Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product specifications, internal sales data, and other sources. Indirect customers primarily purchase our products through system integrators and distributors. We generate a significant amount of our revenue from a limited number of indirect customers, some individually representing 10% or more of our revenue. Certain companies purchase cloud and related services through various direct and indirect customers. We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue purchasing cloud services from our customers in fiscal year 2026. Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and shipping location may be different from our customers' headquarters location. Revenue from sales to customers headquartered outside of the United States accounted for 31% and 41% of total revenue for fiscal years 2026 and 2025, respectively. Gross Profit and Gross Margin Gross profit consists of total net revenue less cost of revenue. Cost of revenue consists of the cost of semiconductors, including wafer fabrication, assembly, testing and packaging, board and device costs, manufacturing support costs, including labor and overhead ass"
+q004,Which products or services drive the company's net sales?,section-128,AAPL,ITEM 8,8,,"ompany recognizes share-based compensation expense on a straight-line basis for its estimate of equity awards that will ultimately vest.
+Cash Equivalents
+All highly liquid investments with maturities of three months or less at the date of purchase are treated as cash equivalents.
+Trade Receivables
+Trade receivables are stated at transaction price.
+Marketable Securities
+The cost of securities sold is determined using the specific identification method.
+Inventories
+Inventories are measured using the first-in, first-out method.
+Property, Plant and Equipment
+Property, plant and equipment are stated at cost. Depreciation on property, plant and equipment is recognized on a straight-line basis.
+Apple Inc. | 2025 Form 10-K | 34
+Derivative Instruments
+The Company presents derivative assets and liabilities at their gross fair values in the Consolidated Balance Sheets.
+Income Taxes
+The Company records certain deferred tax assets and liabilities in connection with the minimum tax on certain foreign earnings created by the TCJA.
+Leases
+The Company combines and accounts for lease and nonlease components as a single lease component for leases of corporate and retail facilities.
+Note 2 – 
+Revenue
+The Company recognizes revenue at the amount to which it expects to be entitled when control of products or services is transferred to its customers. Control is generally transferred when the Company has a present right to payment and title and the significant risks and rewards of ownership of products or services are transferred to its customers. For most of the Company’s Products net sales, control transfers when products are shipped. For the Company’s Services net sales, control transfers over time as services are delivered. Payment for Products and Services net sales is collected within a "
+q004,Which products or services drive the company's net sales?,section-251,NVDA,ITEM 9A,9,,"mplete their build. We refer to indirect customers as those who purchase products through our direct customers; indirect customers include CSPs, Neocloud builders, AI model makers, enterprises, and public sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. Direct Customers – For fiscal year 2026, sales to one direct customer represented 22 % of total revenue and sales to another direct customer represented 14 % of total revenue, all of which were primarily attributable to the Compute & Networking segment. For fiscal year 2025, sales to one direct customer represented 12 % of total revenue and sales to two direct customers each represented 11 % of total revenue, all of which were primarily attributable to the Compute & Networking segment. For fiscal year 2024, sales to one direct customer represented 13 % of total revenue, and were primarily attributable to the Compute & Networking segment. 78 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Financial Statements (Continued) The following table summarizes revenue by specialized markets: Year Ended Jan 25, 2026 Jan 26, 2025 Jan 28, 2024 Revenue by End Market: (In millions) Data Center $ 193,737 $ 115,186 $ 47,525 Compute 162,361 102,196 38,950 Networking 31,376 12,990 8,575 Gaming 16,042 11,350 10,447 Professional Visualization 3,191 1,878 1,553 Automotive 2,349 1,694 1,091 OEM and Other 619 389 306 Total revenue $ 215,938 $ 130,497 $ 60,922 The following table presents summarized information for long-lived assets by country. Long-lived assets consist of property and equipment and exclude other assets, operating lease assets, goodwill, and intangible assets. Jan 25, 2026 Jan 26, 2025 Long-lived assets: (In millions)"
+q004,Which products or services drive the company's net sales?,section-86,AAPL,ITEM 8,10,,"nd a decline in demand for that product could significantly impact net sales and gross margins.
+The Company’s financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies.
+The Company’s primary exposure to movements in foreign exchange rates relates to non–U.S. dollar–denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company’s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations.
+The weakening of foreign currencies relative to the U.S. dollar adversely affects the U.S. dollar value of the Company’s foreign currency–denominated sales and earnings, and generally leads the Company to raise international pricing, potentially reducing demand for the Company’s products. In some circumstances, for competitive or other reasons, the Company may decide not to raise international pricing to offset the U.S. dollar’s strengthening, which would adversely affect the U.S. dollar value of the gross margins the Company earns on foreign currency–denominated sales.
+Apple Inc. | 2025 Form 10-K | 15
+Conversely, a strengthening of foreign currencies relative to the U.S. dollar, while generally beneficial to the Company’s foreign currency–denominated sales and earnings, could cause the Company to reduce international pricing or incur losses on its foreign currency derivative instruments, thereby limiting the benefit. Additionally, strengthening of foreign currencies may increase the Company’s cost of product components denominated in those currencies, thus adversely affecting gross margins.
+The Company uses de"
+q005,What does the filing say about supply chain and manufacturing risk?,section-57,NVDA,ITEM 1A,1,,"Item 1A. Risk Factors The following risk factors should be considered in addition to the other information in this Annual Report on Form 10-K. The following risks could harm our business, financial condition, results of operations or reputation, which could cause our stock price to decline. Additional risks, trends and uncertainties not presently known to us or that we currently believe are immaterial may also harm our business, financial condition, results of operations or reputation. Risk Factors Summary Risks Related to Our Industry and Markets • Failure to meet the evolving needs of our industry and markets may adversely impact our financial results. • Competition could adversely impact our market share and financial results. Risks Related to Demand, Supply, and Manufacturing • Long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately has led and could lead to mismatches between supply and demand. 12 Table of Contents • Dependency on third-party suppliers and their technology to manufacture, assemble, test, or package our products reduces our control over product quantity and quality, manufacturing yields, and product delivery schedules and could harm our business. • Defects in our products have caused and could cause us to incur significant expenses to remediate and could damage our business. Risks Related to Our Global Operating Business • Adverse economic conditions may harm our business. • International sales and operations are a significant part of our business, which exposes us to risks that could harm our business. • Product, system security and data protection incidents or breaches, as well as cyber-attacks could disrupt our operations and adversely affect our financial condit"
+q005,What does the filing say about supply chain and manufacturing risk?,section-149,NVDA,ITEM 15,2,,"ovided $3.5 billion in land, power, and shell guarantees to early‑stage companies, generally over multi‑year periods. If the escrow and the partners' operating activities are not sufficient to cover an event of default under these guarantees, we may elect to assume the underlying leases for internal use or sublease them to third parties. Macroeconomic factors, including tariffs, inflation, interest rate changes, capital market volatility, global supply chain constraints, and global economic and geopolitical developments, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our investments, revenue and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors. Refer to “"
+q005,What does the filing say about supply chain and manufacturing risk?,section-60,AAPL,ITEM 8,3,,"supply chain require considerable time and resources and involve significant risks and uncertainties, including exposure to additional regulatory and operational risks.
+Future operating results depend upon the Company’s ability to obtain components in sufficient quantities on commercially reasonable terms.
+Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of operations, financial condition and stock price. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company’s ability to obtain sufficient quantities of components and products on commercially reasonable terms, or at all. Such disruptions could occur in the future.
+Additionally, the Company’s new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The Company may not be able to extend or renew agreements for the supply of components on similar terms, or at all, and may not be successful in obtaining sufficient quantities from its suppliers in a timely manner, or in identifying and obtaining sufficient quantities from an alternative source. In addition, component suppliers may fail, be subject to consolidation within a particular industry, or decide to concentrate on the production of common com"
+q005,What does the filing say about supply chain and manufacturing risk?,section-47,AAPL,ITEM 1A,4,,"Item 1A.    Risk Factors
+The following summarizes factors that could have a material adverse effect on the Company’s business, reputation, results of operations, financial condition and stock price. The Company may not be able to accurately predict, control or mitigate these risks. Statements in this section are based on the Company’s beliefs and opinions regarding matters that could materially adversely affect the Company in the future and are not representations as to whether such matters have or have not occurred previously. The risks and uncertainties described below are not exhaustive and should not be considered a complete statement of all potential risks or uncertainties that the Company faces or may face in the future.
+This section should be read in conjunction with Part II, "
+q005,What does the filing say about supply chain and manufacturing risk?,section-67,NVDA,ITEM 1A,5,,", pandemics or other events. Geopolitical tensions in regions where we rely on suppliers, contract manufacturers, and assembly partners that are critical to our supply continuity, could have a material adverse impact on us. Publicly announced intentions by governments or other companies to purchase our products can further complicate our demand estimates, as such announcements are often non-binding and may not result in committed volumes. We continue to increase our supply and capacity purchases with existing and new suppliers to support our demand projections and increasing complexity of our data center products. We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal year 2027 and beyond. We have also entered and may continue to enter into prepaid manufacturing and capacity agreements to supply both current and future products. The increased purchase volumes and integration of new suppliers and contract manufacturers into our supply chain creates more complexity in managing multiple suppliers with variations in production planning, execution and logistics. Our expanding product portfolio and varying component compatibility and quality may lead to increased inventory levels. We have incurred and may in the future incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines. We are increasing our U.S.-based manufacturing and investing in specialized equipment and processes to support domestic production. We may experience delays or difficulties in scaling production as planned. Our ability to increase manufacturing capabilities will depend on the domestic manufacturing ecosystem's capacity to ramp production supply to the required volume timely. Delays or sho"
+q005,What does the filing say about supply chain and manufacturing risk?,section-76,NVDA,ITEM 1A,6,,"the implementation of tariffs by the USG or other governments, have in the past and/or could in the future have adverse, wide-ranging effects on our business and financial results, including: • increased costs for wafers, components, logistics, and other supply chain expenses, which have negatively impacted our gross margin in the past and may do so in the future; 18 Table of Contents • increased supply, employee, facilities and infrastructure costs and volatility in the financial markets, which have reduced and may in the future reduce our margins; • decrease in demand for our products, services and technologies and those of our customers, partners or licensees; • the inability of our suppliers to deliver on their supply commitments to us and our customers’ or our licensees’ inability to supply products to customers and/or end users; • limits on our ability to forecast operating results and make business decisions; • the insolvency of key suppliers, distributors, customers, CSPs, data center providers, licensing parties or other third parties we rely on; • reduced profitability of customers, which may cause them to scale back operations, exit businesses, file for bankruptcy protection and potentially cease operations, or lead to mergers, consolidations or strategic alliances among other companies, which could adversely affect our ability to compete effectively; • increased credit and collectability risks, higher borrowing costs or reduced availability of capital markets, reduced liquidity, adverse impacts on our customers and suppliers; and • failures of counterparties, including financial institutions and insurers, asset impairments, and declines in the value of our financial instruments. Adverse developments affecting financial institutions, such as bank failures or "
+q005,What does the filing say about supply chain and manufacturing risk?,section-42,NVDA,ITEM 1,7,,"typically see stronger revenue in the second half of our fiscal year. Historical seasonality trends may not repeat. Manufacturing We utilize a fabless and contracting manufacturing strategy, whereby we employ and partner with key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. We use the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates, and a variety of components, our suppliers are responsible for procurement of most raw materials used in the production of our products. As a result, we can focus our resources on product design, quality assurance, marketing, and customer support. In periods of growth, we may place non-cancellable inventory orders for certain product components in advance of our historical lead times, pay premiums, or provide deposits to secure future supply and capacity and may need to continue to do so. We have expanded our supplier relationships to build redundancy and resilience in our operations to provide long-term manufacturing capacity aligned with growing customer demand. While currently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America. We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory"
+q005,What does the filing say about supply chain and manufacturing risk?,section-53,AAPL,ITEM 8,8,,"sputes and conflicts further escalate, actions by governments in response could be significantly more severe and restrictive.
+Many of the Company’s operations, retail stores and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations, retail stores and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control.
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas.
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely af"
+q005,What does the filing say about supply chain and manufacturing risk?,section-88,NVDA,ITEM 1A,9,,"g to carbon taxes, fuel or energy taxes, pollution limits, sustainability-related disclosure and governance and supply chain governance could result in greater direct costs, including costs associated with changes to manufacturing processes or the procurement of raw materials used in manufacturing processes, increased capital expenditures to improve facilities and equipment, higher compliance and energy costs to reduce emissions, other compliance costs, and greater indirect costs resulting from our customers and/or suppliers incurring additional compliance costs that are passed on to us. These costs and restrictions could harm our business and results of operations by increasing our expenses or requiring us to alter our operations and product design activities. 21 Table of Contents Stakeholder groups may find us insufficiently responsive to the implications of climate change, and therefore we may face legal action or reputational harm. We may not achieve our stated sustainability-related goals, which could harm our reputation, or we may incur additional, unexpected costs to achieve such goals. We may also experience contractual disputes due to supply chain delays arising from climate change-related disruptions, which could result in increased litigation and costs. We also face risks related to business trends that may be influenced by climate change concerns. Our business could be negatively impacted by concerns around the high absolute energy requirements of our GPUs, despite their much more energy efficient design and operation relative to alternative computing platforms. We may not be able to realize the potential benefits of business investments or acquisitions, and we may not be able to successfully integrate acquired companies, which could hurt our ability to grow"
+q005,What does the filing say about supply chain and manufacturing risk?,section-59,NVDA,ITEM 1A,10,," adversely impact our business. • Scrutiny regarding our corporate sustainability practices could result in financial, reputational, or operational harm and liability. • Issues relating to the responsible use of our technologies, including AI, may result in reputational or financial harm and liability. • Adequately protecting our IP rights could be costly, and our ability to compete could be harmed if we are unsuccessful or if we are prohibited from making or selling our products. • We are subject to stringent and changing data privacy and security laws, rules, regulations, and other obligations. These areas could damage our reputation, deter customers, affect product design, or result in legal or regulatory proceedings and liability. • Our operating results may be adversely impacted by additional tax liabilities, higher than expected tax rates, changes in tax laws, and other tax-related factors. • Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings. • Delaware law, provisions in our governing documents and our agreement with Microsoft could delay or prevent a change in control. 13 Table of Contents Risk Factors Risks Related to Our Industry and Markets Failure to meet the evolving needs of our industry and markets may adversely impact our financial results. Our accelerated computing platforms experience rapid changes in technology, customer requirements, competitive products, and industry standards. Our success depends on our ability to: • timely identify industry changes, adapt our strategies, and develop new or enhance and maintain existing products and technologies that meet the evolving needs of our markets, including addressing unexpected shifts in industry standards or disruptive technological inn"
+q006,What was the company's effective tax rate?,section-111,AAPL,ITEM 1A,1,,"unrecognized tax benefits, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by a change in valuation allowance and state income taxes.
+The Company’s effective tax rate for 2025 was lower compared to 2024 due to a $10.7 billion year-over-year decrease in the provision for income taxes related to the State Aid Decision (refer to Note 7, “Income Taxes” in the Notes to Consolidated Financial Statements in Part II, "
+q006,What was the company's effective tax rate?,section-161,MSFT,ITEM 7,2,,"inance lease interest expense, offset in part by higher capitalization of debt interest expense. Net recognized gains on investments increased primarily due to higher gains on equity securities and lower impairments in the current period. Net gains on derivatives increased primarily due to gains on equity derivatives in the current period as compared to losses in the prior period. Other, net primarily reflects net recognized gains on equity method investments, including OpenAI. INCOME TAXES Effective Tax Rate Our effective tax rate for fiscal years 2026 and 2025 was 19% and 18%, respectively. The increase in our effective tax rate was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries. Our effective tax rate was lower than the U.S. federal statutory rate, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland. The mix of income before income taxes between the U.S. and foreign countries impacted our effective tax rate as a result of the geographic distribution of, and customer demand for, our products and services. In fiscal year 2026, our U.S. income before income taxes was $103.6 billion and our foreign income before income taxes was $62.3 billion. In fiscal year 2025, our U.S. income before income taxes was $69.2 billion and our foreign income before income taxes was $54.4 billion. 41 PART II "
+q006,What was the company's effective tax rate?,section-243,MSFT,ITEM 8,3,,"Item 8 Effective Tax Rate We adopted Accounting Standards Update 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures (“ASU 2023-09”) prospectively. The items accounting for the difference between income taxes computed at the U.S. federal statutory rate and our effective rate for the year ended June 30, 2026, pursuant to the requirements of ASU 2023-09, were as follows: (In millions, except percentages) Year Ended June 30, 2026 Federal statutory tax rate $ 34,846 21.0 % Effect of: State and local income tax, net of federal income tax effect (a) 2,573 1.6 % Foreign tax effects: Ireland: Statutory tax rate difference ( 4,301 ) ( 2.6 )% Other 809 0.5 % Other foreign jurisdictions (b) 3,248 2.0 % Effect of cross-border tax laws: Global intangible low-taxed income (GILTI) (c) 5,068 3.1 % Foreign-derived intangible income deduction ( 603 ) ( 0.4 )% Other 799 0.5 % Tax credits: Research and development credit ( 1,453 ) ( 0.9 )% Foreign tax credits ( 9,151 ) ( 5.5 )% Other ( 14 ) ( 0.0 )% Changes in unrecognized tax benefits (d) 1,094 0.7 % Other reconciling items, net ( 730 ) ( 0.6 )% Effective rate $ 32,185 19.4 % (a) In fiscal year 2026, state and local income taxes in California, Illinois, Minnesota, New Jersey, New York, and New York City made up the majority (greater than 50%) of the tax effect in this category. (b) Under ASU 2023-09, Foreign tax effects include foreign withholding taxes while the related foreign tax credits are included in the Tax credits category. Prior to adoption of ASU 2023-09, foreign withholding taxes were presented net of foreign tax credits. (c) Under ASU 2023-09, we elected to present the effect of cross-border tax laws gross and present the foreign tax credits related to GILTI within the Tax credits category. (d) Includes c"
+q006,What was the company's effective tax rate?,section-142,AAPL,ITEM 8,4,,"
+ 
+Total deferred tax liabilities
+7,471
+ 
+6,805
+ 
+Net deferred tax assets
+$
+19,980
+ 
+$
+19,202
+ 
+As of September 27, 2025, the Company had $
+4.7
+ billion in foreign tax credit carryforwards in Ireland and $
+4.0
+ billion in California R&D credit carryforwards, both of which can be carried forward indefinitely. A valuation allowance has been recorded for the credit carryforwards and a portion of other temporary differences.
+Apple Inc. | 2025 Form 10-K | 41
+Uncertain Tax Positions
+As of September 27, 2025, the total amount of gross unrecognized tax benefits was $
+23.2
+ billion, of which $
+10.6
+ billion, if recognized, would impact the Company’s effective tax rate. As of September 28, 2024, the total amount of gross unrecognized tax benefits was $
+22.0
+ billion, of which $
+10.8
+ billion, if recognized, would have impacted the Company’s effective tax rate.
+The aggregate change in the balance of gross unrecognized tax benefits, which excludes interest and penalties, for 2025, 2024 and 2023 is as follows (in millions):
+2025
+2024
+2023
+Beginning balances
+$
+22,038
+ 
+$
+19,454
+ 
+$
+16,758
+ 
+Increases related to tax positions taken during a prior year
+1,971
+ 
+1,727
+ 
+2,044
+ 
+Decreases related to tax positions taken during a prior year
+(
+71
+)
+(
+386
+)
+(
+1,463
+)
+Increases related to tax positions taken during the current year
+3,795
+ 
+2,542
+ 
+2,628
+ 
+Decreases related to settlements with taxing authorities
+(
+2,939
+)
+(
+1,070
+)
+(
+19
+)
+Decreases related to expiration of the statute of limitations
+(
+1,552
+)
+(
+229
+)
+(
+494
+)
+Ending balances
+$
+23,242
+ 
+$
+22,038
+ 
+$
+19,454
+ 
+The Company is subject to taxation and files income tax returns in the U.S. federal jurisdiction and many state and foreign jurisd
+ictions. Tax years 2018 and after 2021 for the U.S. federal jurisdiction, and after 2014 in ce"
+q006,What was the company's effective tax rate?,section-89,AAPL,ITEM 8,5,,"bject to taxes in the U.S. and numerous foreign jurisdictions, including Ireland and Singapore, where a number of the Company’s subsidiaries are organized. Due to economic and political conditions, tax laws and tax rates for income taxes and other non-income taxes in various jurisdictions may be subject to significant change. For example, the Organisation for Economic Co-operation and Development continues to advance proposals for modernizing international tax rules, including the introduction of global minimum tax standards. The Company’s effective tax rates are affected by changes in the mix of earnings in countries with differing statutory tax rates, changes in the valuation of deferred tax assets and liabilities, the introduction of new taxes, and changes in tax laws or their interpretation. The application of tax laws may be uncertain, require significant judgment and be subject to differing interpretations.
+The Company is also subject to the examination of its tax returns and other tax matters by the U.S. Internal Revenue Service and other tax authorities and governmental bodies. The Company regularly assesses the likelihood of an adverse outcome resulting from these examinations to determine the adequacy of its provision for taxes. The outcome of such examinations is inherently uncertain. If the Company’s effective tax rates were to increase, or if the ultimate determination of the Company’s taxes owed is for an amount in excess of amounts previously accrued, the Company’s business, results of operations, financial condition and stock price could be materially adversely affected.
+Apple Inc. | 2025 Form 10-K | 16
+General Risks
+The price of the Company’s stock is subject to volatility.
+The Company’s stock has experienced substantial price volatility in the past and"
+q006,What was the company's effective tax rate?,section-244,MSFT,ITEM 8,6,,"tax credits. (c) Under ASU 2023-09, we elected to present the effect of cross-border tax laws gross and present the foreign tax credits related to GILTI within the Tax credits category. (d) Includes changes in unrecognized tax benefits on an aggregated basis for all jurisdictions, including interest and penalties. As previously disclosed for the years ended June 30, 2025 and 2024, prior to the adoption of ASU 2023-09, the items accounting for the difference between income taxes computed at the U.S. federal statutory rate and our effective rate were as follows: Year Ended June 30, 2025 2024 Federal statutory rate 21.0 % 21.0 % Effect of: Foreign earnings taxed at lower rates ( 1.5 )% ( 1.4 )% Foreign-derived intangible income deduction ( 1.0 )% ( 1.1 )% State income taxes, net of federal benefit 1.5 % 1.5 % Research and development credit ( 1.1 )% ( 1.1 )% Excess tax benefits relating to stock-based compensation ( 0.9 )% ( 1.1 )% Interest, net 1.0 % 1.1 % Other reconciling items, net ( 1.4 )% ( 0.7 )% Effective rate 17.6 % 18.2 % 74 PART II "
+q006,What was the company's effective tax rate?,section-110,AAPL,ITEM 1A,7,,"Item 1A of this Form 10-K under the heading “Risk Factors.” As a result, the Company believes, in general, gross margins will be subject to volatility and downward pressure.
+Operating Expenses
+Operating expenses for 2025, 2024 and 2023 were as follows (dollars in millions):
+2025
+Change
+2024
+Change
+2023
+Research and development
+$
+34,550 
+10 
+%
+$
+31,370 
+5 
+%
+$
+29,915 
+Percentage of total net sales
+8
+%
+8
+%
+8
+%
+Selling, general and administrative
+$
+27,601 
+6 
+%
+$
+26,097 
+5 
+%
+$
+24,932 
+Percentage of total net sales
+7
+%
+7
+%
+7
+%
+Total operating expenses
+$
+62,151 
+8 
+%
+$
+57,467 
+5 
+%
+$
+54,847 
+Percentage of total net sales
+15
+%
+15
+%
+14
+%
+Research and Development
+The growth in R&D expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses and infrastructure-related costs.
+Selling, General and Administrative
+The growth in selling, general and administrative expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses and variable selling expenses.
+Apple Inc. | 2025 Form 10-K | 24
+Provision for Income Taxes
+Provision for income taxes, effective tax rate and statutory federal income tax rate for 2025, 2024 and 2023 were as follows (dollars in millions):
+2025
+2024
+2023
+Provision for income taxes
+$
+20,719 
+$
+29,749 
+$
+16,741 
+Effective tax rate
+15.6
+%
+24.1
+%
+14.7
+%
+Statutory federal income tax rate
+21
+%
+21
+%
+21
+%
+The Company’s effective tax rate for 2025 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, including the impact of changes in unrecognized tax benefits, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by a change in valuation allowance and state income taxes.
+The Co"
+q006,What was the company's effective tax rate?,section-141,AAPL,ITEM 8,8,,"ign pretax earnings were $
+82.0
+ billion, $
+77.3
+ billion and $
+72.9
+ billion in 2025, 2024 and 2023, respectively.
+Apple Inc. | 2025 Form 10-K | 40
+A reconciliation of the provision for income taxes to the amount computed by applying the statutory federal income tax rate (
+21
+% in 2025, 2024 and 2023) to income before provision for income taxes for 2025, 2024 and 2023 is as follows (dollars in millions):
+2025
+2024
+2023
+Computed expected tax
+$
+27,873
+ 
+$
+25,932
+ 
+$
+23,885
+ 
+Earnings of foreign subsidiaries
+(
+8,120
+)
+(
+5,311
+)
+(
+5,744
+)
+Change in valuation allowance
+2,091
+ 
+—
+ 
+—
+ 
+Research and development credit, net
+(
+1,049
+)
+(
+1,397
+)
+(
+1,212
+)
+Impact of the State Aid Decision
+(
+486
+)
+10,246
+ 
+—
+ 
+Other
+410
+ 
+279
+ 
+(
+188
+)
+Provision for income taxes
+$
+20,719
+ 
+$
+29,749
+ 
+$
+16,741
+ 
+Effective tax rate
+15.6
+%
+24.1
+%
+14.7
+%
+Deferred Tax Assets and Liabilities
+As of September 27, 2025 and September 28, 2024, the significant components of the Company’s deferred tax assets and liabilities were as follows (in millions):
+2025
+2024
+Deferred tax assets:
+Capitalized research and development
+$
+15,041
+ 
+$
+10,739
+ 
+Tax credit carryforwards
+8,643
+ 
+8,856
+ 
+Accrued liabilities and other reserves
+6,154
+ 
+6,114
+ 
+Deferred revenue
+2,953
+ 
+3,413
+ 
+Lease liabilities
+2,577
+ 
+2,410
+ 
+Other
+3,049
+ 
+3,341
+ 
+Total deferred tax assets
+38,417
+ 
+34,873
+ 
+Less: Valuation allowance
+(
+10,966
+)
+(
+8,866
+)
+Total deferred tax assets, net
+27,451
+ 
+26,007
+ 
+Deferred tax liabilities:
+Depreciation
+3,276
+ 
+2,551
+ 
+Right-of-use assets
+2,300
+ 
+2,125
+ 
+Minimum tax on foreign earnings
+1,217
+ 
+1,674
+ 
+Other
+678
+ 
+455
+ 
+Total deferred tax liabilities
+7,471
+ 
+6,805
+ 
+Net deferred tax assets
+$
+19,980
+ 
+$
+19,202
+ 
+As of September 27, 2025, the Company had $
+4.7
+ billion in foreign tax credit carryforwards in Ireland "
+q006,What was the company's effective tax rate?,section-245,MSFT,ITEM 8,9,,"Item 8 The decrease from the federal statutory rate in fiscal years 2026, 2025, and 2024 is primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland. In fiscal years 2026, 2025, and 2024, our foreign regional operating center in Ireland, which is taxed at a rate lower than the U.S. rate, generated 81 %, 81 %, and 83 %, respectively, of our foreign income before tax. For fiscal year 2026, other reconciling items, net consists primarily of excess tax benefits related to stock-based compensation, impacts of tax law changes, and changes in valuation allowances. For fiscal year 2025 and 2024, other reconciling items, net consists primarily of individually immaterial reconciling items such as GILTI net of related foreign tax credit, and in fiscal year 2024, includes tax benefits from tax law changes. In fiscal year 2024, tax benefits from tax law changes primarily relate to the delay of the effective date of final foreign tax credit regulations. In fiscal years 2026, 2025, and 2024, there were no individually significant other reconciling items. The increase in our effective tax rate for fiscal year 2026 compared to fiscal year 2025 was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries. The decrease in our effective tax rate for fiscal year 2025 compared to fiscal year 2024 was due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries. The components of the deferred income tax assets and liabilities were as follows: (In millions) June 30, 2026 2025 Deferred Income Tax Assets Stock-based compensation expense $ 945 $ 909 Accruals, reserves, an"
+q006,What was the company's effective tax rate?,section-163,NVDA,ITEM 15,10,,"Item 15 of this Annual Report on Form 10-K for additional information regarding our non-marketable equity securities. Income Taxes Income tax expense was $21.4 billion and $11.1 billion for fiscal years 2026 and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively. The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation, FDDEI, and U.S. federal research tax credit relative to the increase in income before income tax. Our effective tax rates for fiscal years 2026 and 2025 were lower than the U.S. federal statutory rate of 21.0% primarily due to tax benefits from FDDEI, stock-based compensation, income earned in jurisdictions that are subject to taxes at rates lower than the U.S. federal statutory tax rate, and the U.S. federal research tax credit. In July 2025, the One Big Beautiful Bill Act (OBBBA) was enacted into law and contains several changes to key U.S. federal income tax laws. We have recognized the tax effects of currently effective OBBBA provisions in our results for fiscal year 2026. We will continue to evaluate the impact of these legislative changes as tax authorities provide additional guidance and interpretation. As of January 25, 2026, based on recent jurisdictional taxable income and expected future earnings, we concluded certain state deferred tax assets are more likely than not realizable and released $711 million of valuation allowance. Refer to Note 13 of the Notes to the Consolidated Financial Statements in Part IV, "
+q007,What liquidity resources does the company describe?,section-166,NVDA,ITEM 15,1,,"ate our liquidity and capital resources, including our access to external capital, to ensure we can finance future capital requirements. Our marketable securities consist of publicly-held equity securities, debt securities issued by the U.S. government and its agencies, highly-rated corporations and financial institutions, and foreign government entities, as well as certificates of deposit issued by highly-rated financial institutions. These marketable securities are primarily denominated in U.S. dollars. Refer to Note 7 of the Notes to the Consolidated Financial Statements in Part IV, "
+q007,What liquidity resources does the company describe?,section-125,MSFT,ITEM 1B,2,,"cation plans, as applicable. Engineering and development resources are mobilized to resolve or remediate the incident. Following resolution, we conduct post incident reviews for incidents that meet established criteria to capture learnings and strengthen our processes. We describe the risks from cybersecurity threats, including previous cybersecurity incidents, in section “Risk Factors” (Part I, "
+q007,What liquidity resources does the company describe?,section-177,MSFT,ITEM 8,3,,"Item 8 of this Form 10-K). Other Planned Uses of Capital We will continue to invest in sales, marketing, product support infrastructure, and existing and advanced areas of technology, as well as acquisitions that align with our business strategy. Additions to property and equipment will continue, including new facilities, datacenters, and computer systems for research and development, sales and marketing, support, and administrative staff. We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure. We have operating and finance leases for datacenters and related infrastructure, servers and network equipment, corporate offices, and research and development facilities. We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources. RECENT ACCOUNTING GUIDANCE Refer to Note 1 – Accounting Policies of the Notes to Financial Statements (Part II, "
+q007,What liquidity resources does the company describe?,section-165,NVDA,ITEM 15,4,,"Item 15 of this Annual Report on Form 10-K for additional information. Liquidity and Capital Resources Jan 25, 2026 Jan 26, 2025 (In millions) Cash and cash equivalents $ 10,605 $ 8,589 Marketable securities 51,951 34,621 Cash, cash equivalents, and marketable securities $ 62,556 $ 43,210 42 Table of Contents Year Ended Jan 25, 2026 Jan 26, 2025 (In millions) Net cash provided by operating activities $ 102,718 $ 64,089 Net cash used in investing activities $ (52,228) $ (20,421) Net cash used in financing activities $ (48,474) $ (42,359) Our fixed income security investments include highly rated, diversified investment types and credit exposures with shorter maturities. Cash provided by operating activities increased in fiscal year 2026 compared to fiscal year 2025, due to higher revenue. Cash used in investing activities increased in fiscal year 2026 compared to fiscal year 2025, primarily driven by higher purchases of equity investment securities and the execution of a non-exclusive license agreement with Groq. Cash used in financing activities increased in fiscal year 2026 compared to fiscal year 2025, mainly due to higher share repurchases. Liquidity Our primary sources of liquidity include cash, cash equivalents, marketable securities, and cash generated by our operations. As of January 25, 2026, we had $62.6 billion in cash, cash equivalents, and marketable securities. We believe that we have sufficient liquidity to meet our operating requirements for at least the next twelve months and for the foreseeable future, including our future obligations. We continuously evaluate our liquidity and capital resources, including our access to external capital, to ensure we can finance future capital requirements. Our marketable securities consist of publicly-held equity secur"
+q007,What liquidity resources does the company describe?,section-48,AAPL,ITEM 7,5,,"Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, "
+q007,What liquidity resources does the company describe?,section-33,MSFT,ITEM 1,6,,"Item 1 Commitment to Sustainability Microsoft is committed to sustainability and our approach to addressing climate change starts with the sustainability of our own business. In 2020, we announced goals to become a carbon negative, water positive, and zero waste company by 2030. Since announcing these goals, we have seen major changes in both the technology sector and in our understanding of what it will take to meet our goals. More information about our progress toward these goals can be found in our annual Environmental Sustainability Report. OPERATING SEGMENTS We operate our business and report our financial performance using three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. Our segments provide management with a comprehensive financial view of our key businesses. The segments enable the alignment of strategies and objectives across the development, sales, marketing, and services organizations, and they provide a framework for timely and rational allocation of resources within businesses. Additional information on our operating segments and geographic and product information is contained in Note 18 – Segment Information and Geographic Data of the Notes to Financial Statements (Part II, "
+q007,What liquidity resources does the company describe?,section-149,MSFT,ITEM 7,7,,"Item 7 Metrics We use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of resources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into performance trends, and reflect the continued evolution of our products and services. Our commercial and other business metrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in the MD&A or the Notes to Financial Statements (Part II, "
+q007,What liquidity resources does the company describe?,section-112,AAPL,ITEM 8,8,,"Item 8 of this Form 10-K) and the impact of changes in unrecognized tax benefits, partially offset by a change in valuation allowance and a higher effective tax rate on foreign earnings.
+Liquidity and Capital Resources
+The Company believes its balances of cash, cash equivalents and marketable securities, which totaled $132.4 billion as of September 27, 2025, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.
+The Company’s material cash requirements include the following contractual obligations:
+Debt
+As of September 27, 2025, the Company had outstanding fixed-rate notes with varying maturities for an aggregate principal amount of $91.3 billion (collectively the “Notes”), with $12.4 billion payable within 12 months. Future interest payments associated with the Notes total $37.0 billion, with $2.6 billion payable within 12 months.
+The Company also issues unsecured short-term promissory notes pursuant to a commercial paper program. As of September 27, 2025, the Company had $8.0 billion of commercial paper outstanding, which was payable within 12 months.
+Leases
+The Company has lease arrangements for certain equipment and facilities, including corporate, data center, manufacturing and retail space. As of September 27, 2025, the Company had fixed lease payment obligations of $16.8 billion, with $2.6 billion payable within 12 months.
+Manufacturing Purchase Obligations
+The Company utilizes several outsourcing partners to manufacture subassemblies for the Company’s products and to perform final assembly and testing of finished products. The Company also obtains individual components for its products from a wide variety of individual"
+q007,What liquidity resources does the company describe?,section-77,NVDA,ITEM 1A,9,,"cluding financial institutions and insurers, asset impairments, and declines in the value of our financial instruments. Adverse developments affecting financial institutions, such as bank failures or instability, or concerns or speculation about similar events or risks, could lead to market-wide liquidity problems and other disruptions, which could impact our customers’ ability to fulfill their payment obligations to us, our vendors’ ability to fulfill their contractual obligations to us, or our ability to fulfill our own obligations. Additionally, we maintain a portfolio of liquid investments for cash management purposes, including various holdings, types, and maturities. These investments are subject to general credit, liquidity, market and interest rate risks, which may be exacerbated by market downturns or events that affect global financial markets, as described above. A majority of our investment portfolio comprises USG securities. A decline in global financial markets for long periods or a downgrade of the USG credit rating due to an actual or threatened default on government debt could result in higher interest rates, a decline in the value of the U.S. dollar, reduced market liquidity or other adverse conditions. These factors could cause an unrealized or realized loss position in our investments or require us to record impairment charges. International sales and operations are a significant part of our business, which exposes us to risks that could harm our business. We sell our products internationally, and we also have operations and conduct business internationally. Our semiconductor wafers are manufactured, assembled, tested and packaged by third parties located outside of the United States, and we generated 31% of our revenue in fiscal year 2026 from sales"
+q007,What liquidity resources does the company describe?,section-115,AAPL,ITEM 8,10,,"loyee compensation, depreciation and intangible asset amortization, as applicable, included in certain expense captions in the Consolidated Statements of Operations, as well as qualitatively describe remaining amounts included in those captions. ASU 2024-03 will also require the Company to disclose both the amount and the Company’s definition of selling expenses. The Company will adopt ASU 2024-03 in its fourth quarter of 2028 using a prospective transition method.
+Income Taxes
+In December 2023, the FASB issued ASU No. 2023-09, 
+Income Taxes (Topic 740): Improvements to Income Tax Disclosures 
+(“ASU 2023-09”), which will require the Company to disclose specified additional information in its income tax rate reconciliation and provide additional information for reconciling items that meet a quantitative threshold. ASU 2023-09 will also require the Company to disaggregate its income taxes paid disclosure by federal, state and foreign taxes, with further disaggregation required for significant individual jurisdictions. The Company will adopt ASU 2023-09 in its fourth quarter of 2026 using a prospective transition method.
+Critical Accounting Estimates
+The preparation of financial statements and related disclosures in conformity with U.S. generally accepted accounting principles (“GAAP”) and the Company’s discussion and analysis of its financial condition and operating results require the Company’s management to make judgments, assumptions and estimates that affect the amounts reported. Note 1, “Summary of Significant Accounting Policies” of the Notes to Consolidated Financial Statements in Part II, "
+q008,What legal proceedings are disclosed?,section-17,AAPL,ITEM 3,1,,"Item 3.
+Legal Proceedings
+18
+"
+q008,What legal proceedings are disclosed?,section-132,MSFT,ITEM 8,2,,Item 8 of this Form 10-K) for information regarding legal proceedings in which we are involved. 
+q008,What legal proceedings are disclosed?,section-8,NVDA,ITEM 3,3,,Item 3. Legal Proceedings 33 
+q008,What legal proceedings are disclosed?,section-7,MSFT,ITEM 3,4,,Item 3. Legal Proceedings 31 
+q008,What legal proceedings are disclosed?,section-131,MSFT,ITEM 3,5,,"ITEM 3. LEGAL PROCEEDINGS Refer to Note 14 – Contingencies of the Notes to Financial Statements (Part II, "
+q008,What legal proceedings are disclosed?,section-135,NVDA,ITEM 3,6,,"Item 3. Legal Proceedings Please see Note 12 of the Notes to the Consolidated Financial Statements in Part IV, "
+q008,What legal proceedings are disclosed?,section-73,AAPL,ITEM 8,7,,"than-expected liabilities and expenses, economic, political, legal and regulatory challenges associated with operating in new businesses, regions or countries, inadequate return on capital, potential impairment of tangible and intangible assets, and significant write-offs. Some transactions, including investments and acquisitions, are exposed to additional risks, including failing to obtain required regulatory approvals on a timely basis or at all, a counterparty’s failure to perform or deliver as anticipated, or the imposition of onerous conditions that could delay or prevent the Company from completing a transaction or otherwise limit the Company’s ability to fully realize the anticipated benefits of a transaction. New business strategies and ventures are inherently risky and may not be successful. The Company’s business strategies and investments may not be successful, which could materially adversely affect the Company’s business, reputation, results of operations, financial condition and stock price.
+Legal and Regulatory Compliance Risks
+The Company’s business, results of operations and financial condition could be adversely impacted by unfavorable results of legal proceedings or government investigations.
+The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved, and new matters may arise in the future. In addition, the Company enters into agreements that include indemnification provisions that can subject the Company to costs and damages in the event of a claim against an indemnified third party. The number of claims, legal proceedings and government investigations involving the Company, and the alleged magnitude of such claims, proceedings and"
+q008,What legal proceedings are disclosed?,section-136,NVDA,ITEM 15,8,,Item 15 of this Annual Report on Form 10-K for a discussion of our legal proceedings. 
+q008,What legal proceedings are disclosed?,section-74,AAPL,ITEM 8,9,,"nt of a claim against an indemnified third party. The number of claims, legal proceedings and government investigations involving the Company, and the alleged magnitude of such claims, proceedings and government investigations, has generally increased over time and may continue to increase.
+The Company has faced and continues to face a significant number of patent claims relating to its standards-enabled products, and new claims may arise in the future, including as a result of new legal or regulatory frameworks. For example, technology, data and other intellectual property asset–holding companies frequently assert their intellectual property rights and seek royalties and often enter into litigation based on allegations of infringement or other violations of intellectual property rights. These risks, and the risks of novel claims being attempted, may be exacerbated as new and emerging technologies, including machine learning and artificial intelligence, are further integrated into the Company’s products and services. The Company is vigorously defending infringement actions in courts in several U.S. jurisdictions, as well as internationally in various countries. The plaintiffs in these actions frequently seek broad injunctive relief and substantial damages.
+Regardless of the merit of particular claims, defending against litigation or responding to government investigations can be expensive, time-consuming and disruptive to the Company’s operations. In recognition of these considerations, the Company may enter into agreements or other arrangements to settle litigation and resolve such challenges. However, such agreements may not always be available on acceptable terms, and litigation may still arise. Such agreements can also significantly reduce the Company’s revenue and "
+q008,What legal proceedings are disclosed?,section-149,MSFT,ITEM 7,10,,"Item 7 Metrics We use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of resources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into performance trends, and reflect the continued evolution of our products and services. Our commercial and other business metrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in the MD&A or the Notes to Financial Statements (Part II, "
+q009,What were the company's capital expenditures?,section-177,MSFT,ITEM 8,1,,"Item 8 of this Form 10-K). Other Planned Uses of Capital We will continue to invest in sales, marketing, product support infrastructure, and existing and advanced areas of technology, as well as acquisitions that align with our business strategy. Additions to property and equipment will continue, including new facilities, datacenters, and computer systems for research and development, sales and marketing, support, and administrative staff. We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure. We have operating and finance leases for datacenters and related infrastructure, servers and network equipment, corporate offices, and research and development facilities. We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources. RECENT ACCOUNTING GUIDANCE Refer to Note 1 – Accounting Policies of the Notes to Financial Statements (Part II, "
+q009,What were the company's capital expenditures?,section-237,MSFT,ITEM 8,2,," been a combined company during the periods presented and are not necessarily indicative of our consolidated results of operations in future periods. The pro forma results include adjustments related to purchase accounting, primarily amortization of intangible assets. Acquisition costs and other nonrecurring charges were immaterial and are included in the earliest period presented. NOTE 8 — GOODWILL Changes in the carrying amount of goodwill were as follows: (In millions) June 30, 2024 Acquisitions Other June 30, 2025 Acquisitions Other June 30, 2026 Productivity and Business Processes $ 31,361 $ 0 $ 96 $ 31,457 $ 67 $ 46 $ 31,570 Intelligent Cloud 25,648 0 41 25,689 36 16 25,741 More Personal Computing 62,211 0 152 62,363 5 ( 28 ) 62,340 Total $ 119,220 $ 0 $ 289 $ 119,509 $ 108 $ 34 $ 119,651 70 PART II "
+q009,What were the company's capital expenditures?,section-171,NVDA,ITEM 1A,3,,"Item 1A. Risk Factors for additional information regarding our investments. During fiscal year 2026 and fiscal year 2025, we spent $6.1 billion and $3.4 billion on capital expenditures, respectively. We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business. Unrecognized tax benefits of $4.0 billion, which includes related interest and penalties of $374 million, were recorded in non-current income tax payable at the end of fiscal year 2026. We are unable to estimate the timing of any potential tax liability, interest payments, or penalties in individual years due to uncertainties in the underlying income tax positions and the timing of the effective settlement of such tax positions. We are currently under examination by the Internal Revenue Service for our fiscal years 2023 and 2024. Refer to Note 13 of the Notes to the Consolidated Financial Statements in Part IV, "
+q009,What were the company's capital expenditures?,section-129,AAPL,ITEM 8,4,,"rol transfers when products are shipped. For the Company’s Services net sales, control transfers over time as services are delivered. Payment for Products and Services net sales is collected within a short period following transfer of control or commencement of delivery of services, as applicable.
+The Company records reductions to Products net sales related to future product returns, price protection and other customer incentive programs based on the Company’s expectations and historical experience.
+For arrangements with multiple performance obligations, which represent promises within an arrangement that are distinct, the Company allocates revenue to all distinct performance obligations based on their relative stand-alone selling prices (“SSPs”). When available, the Company uses observable prices to determine SSPs. When observable prices are not available, SSPs are established that reflect the Company’s best estimates of what the selling prices of the performance obligations would be if they were sold regularly on a stand-alone basis. The Company’s process for estimating SSPs without observable prices considers multiple factors that may vary depending upon the unique facts and circumstances related to each performance obligation including, where applicable, prices charged by the Company for similar offerings, market trends in the pricing for similar offerings, product-specific business objectives and the estimated cost to provide the performance obligation.
+The Company has identified the performance obligations regularly included in arrangements involving the sale of iPhone, Mac and iPad. The first material performance obligation, which represents the substantial portion of the allocated sales price, is the hardware and bundled software delivered at the time of sale. T"
+q009,What were the company's capital expenditures?,section-208,MSFT,ITEM 8,5,,"nt were $ 11.3 billion, with $ 3.8 billion included in short-term investments and $ 7.5 billion included in equity and other investments in our consolidated balance sheet. 57 PART II "
+q009,What were the company's capital expenditures?,section-162,AAPL,ITEM 9A,6,,"Item 9A.    Controls and Procedures
+Evaluation of Disclosure Controls and Procedures
+Based on an evaluation under the supervision and with the participation of the Company’s management, the Company’s principal executive officer and principal financial officer have concluded that the Company’s disclosure controls and procedures as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act were effective as of September 27, 2025 to provide reasonable assurance that information required to be disclosed by the Company in reports that it files or submits under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms and (ii) accumulated and communicated to the Company’s management, including its principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure.
+Inherent Limitations over Internal Controls
+The Company’s internal control over financial reporting is designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with GAAP. The Company’s internal control over financial reporting includes those policies and procedures that: 
+(i)
+pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the Company’s assets;
+(ii)
+provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with GAAP, and that the Company’s receipts and expenditures are being made only in accordance with authorizations of the Company’s management and directors; and
+(iii)
+provide reasonable assurance regarding "
+q009,What were the company's capital expenditures?,section-198,NVDA,ITEM 9A,7,,"ing management’s process for developing the provisions for excess or obsolete inventories and excess product purchase commitments; evaluating the appropriateness of management’s approach; testing the completeness and accuracy of underlying data used in the approach; and evaluating the reasonableness of management’s assumptions related to future demand and market conditions. Evaluating management’s assumptions related to future demand and market conditions involved evaluating whether the assumptions used by management were reasonable considering (i) current and past results, including historical product life cycle, (ii) the consistency with external market and industry data, and (iii) changes in technology. /s/ PricewaterhouseCoopers LLP San Jose, California February 25, 2026 We have served as the Company’s auditor since 2004. 50 Table of Contents NVIDIA Corporation and Subsidiaries Consolidated Statements of Income (In millions, except per share data) Year Ended Jan 25, 2026 Jan 26, 2025 Jan 28, 2024 Revenue $ 215,938 $ 130,497 $ 60,922 Cost of revenue 62,475 32,639 16,621 Gross profit 153,463 97,858 44,301 Operating expenses Research and development 18,497 12,914 8,675 Sales, general and administrative 4,579 3,491 2,654 Total operating expenses 23,076 16,405 11,329 Operating income 130,387 81,453 32,972 Interest income 2,300 1,786 866 Interest expense ( 259 ) ( 247 ) ( 257 ) Other income, net 9,022 1,034 237 Total other income, net 11,063 2,573 846 Income before income tax 141,450 84,026 33,818 Income tax expense 21,383 11,146 4,058 Net income $ 120,067 $ 72,880 $ 29,760 Net income per share: Basic $ 4.93 $ 2.97 $ 1.21 Diluted $ 4.90 $ 2.94 $ 1.19 Weighted average shares used in per share computation: Basic 24,359 24,555 24,690 Diluted 24,514 24,804 24,940 See accompan"
+q009,What were the company's capital expenditures?,section-230,NVDA,ITEM 9A,8,,"e for their intended use. Depreciation expense for fiscal years 2026, 2025, and 2024 was $ 2.4 billion, $ 1.3 billion, and $ 894 million, respectively. Accumulated amortization of leasehold improvements and finance leases was $ 519 million and $ 410 million as of January 25, 2026 and January 26, 2025, respectively. Property, equipment and intangible assets acquired but not paid for during fiscal years 2026, 2025, and 2024 were $ 820 million, $ 525 million, and $ 170 million, respectively. Jan 25, 2026 Jan 26, 2025 Accrued and Other Current Liabilities: (In millions) Customer program accruals $ 5,318 $ 4,880 Accrued purchase consideration 3,921 9 Product warranty 2,807 1,290 Excess inventory purchase obligations (1) 2,739 2,095 Taxes payable 2,669 881 Deferred revenue (2) 1,379 837 Accrued payroll and related expenses 1,146 848 Other 1,373 897 Total accrued and other current liabilities $ 21,352 $ 11,737 (1) In fiscal years 2026 and 2025, we recorded an expense of approximately $ 3.2 billion and $ 2.0 billion, respectively, in cost of revenue. (2) Includes customer advances and unearned revenue related to hardware and software support, cloud services, and license and development arrangements. The balance as of January 25, 2026 and January 26, 2025 included $ 160 million and $ 81 million of customer advances, respectively. Jan 25, 2026 Jan 26, 2025 Other Long-Term Liabilities: (In millions) Income tax payable (1) $ 3,958 $ 2,188 Deferred income tax 1,774 886 Deferred revenue (2) 1,193 976 Other 381 195 Total other long-term liabilities $ 7,306 $ 4,245 (1) Primarily comprised of unrecognized tax benefits and related interest and penalties. (2) Includes unearned revenue related to hardware and software support and cloud services. Deferred Revenue The following table shows t"
+q009,What were the company's capital expenditures?,section-67,MSFT,ITEM 1A,9,,"essary components, and securing energy resources. These investments are being made at significant scale and on an accelerated timeline, require substantial and increasing capital expenditures and continued access to capital, and are in advance of fully developed revenue streams. The associated revenue may not be realized in the expected timeframes or at expected levels. Our capital and operational investments are complex and involve projects in multiple locations around the world that expose us to increased compliance risks and political challenges, among others. Our ability to fund these investments depends on our ability to generate sufficient cash flows and obtain financing on acceptable terms. Adverse changes in interest rates, credit markets, investor sentiment, our credit ratings, or other factors affecting capital availability could increase our cost of capital or limit our ability to execute our infrastructure strategy. The financial success of these investments depends on a number of uncertain factors, including customer demand for cloud-based and AI products and services and continued customer use of Azure to build, train, deploy, and run AI workloads, our ability to price and monetize those services at levels sufficient to recover our costs, competitive dynamics affecting pricing, and the pace of adoption of AI. Customers may reduce, delay, or shift AI workloads to competing platforms, on-premises or local deployments, or other alternatives. If adoption of our AI services develops more slowly than expected, or if customers do not continue to utilize Azure for AI workloads at anticipated levels, we may not realize the expected returns on our investments. 15 PART I "
+q009,What were the company's capital expenditures?,section-196,MSFT,ITEM 8,10,,"’ equity 442,387 343,479 Total liabilities and stockholders’ equity $ 758,376 $ 619,003 Refer to accompanying notes. 52 PART II "
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-158,MSFT,ITEM 7,1,,"Item 7 Operating income increased $220 million or 2%. • Cost of revenue decreased $1.8 billion or 7% driven by lower hardware sales. • Gross margin increased $1.2 billion or 4% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses. • Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio. Operating income included a favorable foreign currency impact of 2%. OPERATING EXPENSES Research and Development (In millions, except percentages) 2026 2025 Percentage Change Research and development $ 35,562 $ 32,488 9% As a percent of revenue 11% 12% (1)ppt Research and development expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with product development. Research and development expenses also include technology development costs, including AI training and other infrastructure costs, third-party development and programming costs, and the depreciation and amortization of assets used to conduct research and development. Fiscal Year 2026 Compared with Fiscal Year 2025 Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as impairment and other related expenses in our XBOX business. Sales and Marketing (In millions, except percentages) 2026 2025 Percentage Change Sales and marketing $ 26,710 $ 25,654 4% As a percent of revenue 8% 9% (1)ppt Sales and ma"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-153,MSFT,ITEM 7,2,,".1 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue decreased driven by XBOX (formerly Gaming), offset in part by growth in Search advertising. Cost of revenue increased $18.5 billion or 21% driven by growth in Microsoft Cloud. Gross margin increased $31.6 billion or 16% with growth across each of our segments. • Gross margin percentage decreased slightly driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud. • Microsoft Cloud gross margin percentage decreased to 66% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud. Operating expenses increased $4.9 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, impairment and other related expenses in our XBOX business, investments in commercial sales, and higher Copilot advertising expenses. Operating income increased $26.7 billion or 21% driven by growth in Productivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II "
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-210,MSFT,ITEM 8,3,,"nsurate with annual sales activities. Cost of Revenue Cost of revenue includes: costs incurred to support and maintain cloud-based and other online products and services, including datacenter costs and royalties; operating costs related to product support service centers and product distribution centers; manufacturing and distribution costs for products sold and programs licensed; traffic acquisition costs to drive traffic to our websites and to acquire online advertising space; and costs associated with the delivery of consulting services. Research and Development Research and development expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with product development. Research and development expenses also include technology development costs, including AI training and other infrastructure costs, third-party development and programming costs, and the depreciation and amortization of assets used to conduct research and development. Such costs related to software development are included in research and development expense until the point that technological feasibility is reached, which for our software products is generally shortly before the products are released to production. Once technological feasibility is reached, such costs are capitalized and amortized to cost of revenue over the estimated lives of the products. Sales and Marketing Sales and marketing expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with sales and marketing personnel, and the costs of advertising, promotions, trade shows, seminars, and other programs. Advertising costs are expensed as incurred. Advertising expense was $ 2.7 billion, $ 2.1 billion,"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-61,NVDA,ITEM 1A,4,," Obtaining design wins may involve a lengthy process and depends on our ability to anticipate and provide features and functionality that customers will demand. They also do not guarantee revenue. Failure to obtain a design win may prevent us from obtaining future design wins in subsequent generations. We cannot ensure that our products and technologies will provide value to our customers and partners. If we fail any of these key success criteria, our financial results may be harmed. We have entered into an intellectual property license arrangement with Groq, Inc., or Groq, that required significant, nonrefundable payments. Successfully incorporating the licensed technology into our architectures and product roadmaps requires significant engineering effort and may not occur on expected timelines or at all. The licensed technology may not achieve the desired results as designed or achieve customer or ecosystem adoption. The economic outcomes of this arrangement depend on our ability to translate the licensed technology into commercially viable products and services over time, and we may be unable to recover the associated costs or realize an adequate return on this spend. If our efforts to use the licensed technology are delayed or unsuccessful, our business, operating results, and financial condition could be negatively impacted. We entered into multi-year cloud service agreements to support our research and development activities. The timing and availability of these cloud services have changed and may continue to shift, impacting our revenue, expenses, and development timelines, and these arrangements may not deliver anticipated benefits. We also offer or plan to offer standalone software solutions, including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE, and o"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-157,MSFT,ITEM 7,5,," revenue increased $17.7 billion or 44% driven by investments in AI infrastructure to support growing customer demand. • Gross margin increased $13.8 billion or 21% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, offset in part by efficiency gains in Azure. • Operating expenses increased $1.4 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio. Cost of revenue included an unfavorable foreign currency impact of 2%. More Personal Computing Revenue decreased $597 million or 1%. • Windows and Devices revenue decreased $230 million or 1%. Windows OEM and Devices revenue decreased slightly driven by a decline in Devices, offset in part by Windows OEM growth of 5% with inventory levels that remained elevated. • XBOX revenue decreased $1.7 billion or 7% driven by declines in XBOX content and services and XBOX hardware. XBOX content and services revenue decreased 5% on a prior year comparable that benefited from strong first-party content performance, offset in part by growth in XBOX Game Pass. XBOX hardware revenue decreased 29% driven by lower volume of consoles sold. • Search advertising revenue increased $1.3 billion or 9%. Search advertising revenue excluding traffic acquisition costs increased 12% driven by higher search volume and revenue per search, as well as benefit from third-party partnerships. 39 PART II "
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-37,NVDA,ITEM 1,6,,"leveraging our GPUs, CPUs, CUDA and networking technologies as the fundamental building blocks. The programmable nature of our architecture allows us to make leveraged investments in research and development: we can support several multi-billion-dollar end markets with shared underlying technology by using a variety of software stacks developed either internally or by third-party developers and partners. We utilize this platform approach in each of our target markets. Extending our technology and platform leadership in AI. We provide a complete, end-to-end accelerated computing platform for AI, addressing both training and inferencing. This includes full-stack data center-scale compute and networking solutions across processing units, interconnects, systems, and software. Our compute solutions include all three major processing units in AI servers – GPUs, CPUs, and DPUs. GPUs are uniquely suited to AI, and we will continue to add AI-specific features to our GPU architecture to further extend our leadership position. In addition, we offer NVIDIA AI Enterprise—a comprehensive software suite designed to simplify the development and deployment of production-grade, end-to-end generative AI applications. NVIDIA AI Enterprise includes: NVIDIA NIM, which increases token throughput using industry-leading open and proprietary models; NVIDIA NeMo, a complete solution for curating, fine-tuning, reinforcement learning, evaluating, and safeguarding domain-adapted models; and AI Blueprints, pre-built, runnable templates that help enterprises build, optimize, and deploy AI agents while preserving privacy. These tools enable organizations to securely develop and run AI applications on NVIDIA-accelerated infrastructure anywhere. Our AI technology leadership is reinforced by our large and"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-145,NVDA,ITEM 1A,7,,"Item 1A. Risk Factors,” our Consolidated Financial Statements and related Notes thereto, as well as other cautionary statements and risks described elsewhere in this Annual Report on Form 10-K, before deciding to purchase, hold, or sell shares of our common stock. Overview Our Company and Our Businesses NVIDIA pioneered accelerated computing to help solve the most challenging computational problems. Since our original focus on PC graphics, we have expanded to several other large and important computationally intensive fields. Fueled by the sustained demand for exceptional 3D graphics and the scale of the gaming market, NVIDIA has leveraged its GPU architecture to create platforms for scientific computing, AI, data science, autonomous vehicles, robotics, and digital twin applications. NVIDIA is now a data center scale AI infrastructure company reshaping all industries. Our two operating segments are ""Compute & Networking"" and ""Graphics."" Refer to Note 16 of the Notes to the Consolidated Financial Statements in Part IV, "
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-28,NVDA,ITEM 1,8,,"billion in research and development since our inception, yielding inventions that are essential to modern computing. Our invention of the GPU in 1999 sparked the growth of the PC gaming market and redefined computer graphics. With our introduction of CUDA in 2006, we opened the parallel processing capabilities of our GPU to a broad range of compute-intensive applications, paving the way for the emergence of modern AI. In 2012, the AlexNet neural network, trained on NVIDIA GPUs, won the ImageNet computer image recognition competition, marking the “Big Bang” moment of AI. We introduced our first Tensor Core GPU in 2017, built from the ground-up for the new era of AI, and our first autonomous driving system-on-chips, or SoC, in 2018. Our acquisition of Mellanox in 2020 expanded our offerings to include networking, enabled our platforms to be data center scale, and led to the introduction of a new processor class – the data processing unit, or DPU. Over the past 5 years, we have built full software stacks that run on top of our GPUs and CUDA to bring AI to the world’s largest industries, including NVIDIA DRIVE stack for autonomous driving, Clara for healthcare, Omniverse for physical AI applications, and NVIDIA AI Enterprise software – essentially an operating system for enterprise AI applications. In 2023, we introduced our first data center CPU, Grace, built for giant-scale AI and high-performance computing, or HPC. In 2024, we launched the NVIDIA Blackwell architecture – connecting 36 Grace CPUs and 72 Blackwell GPUs in a data center scale, liquid-cooled design – for real-time trillion-parameter inference and training. In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI. Building on the archit"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-62,NVDA,ITEM 1A,9,,"elines, and these arrangements may not deliver anticipated benefits. We also offer or plan to offer standalone software solutions, including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE, and other software products. These business models or strategies may not be successful, and we may fail to sell any meaningful standalone software or services. We may incur significant costs and may not achieve any significant revenue from these offerings. Competition could adversely impact our market share and financial results. Our target markets remain competitive, and competition may intensify with expanding and changing product and service offerings, industry standards, customer and market needs, new entrants and consolidations. Our competitors’ products, services and technologies, including those mentioned above in this Annual Report on Form 10-K, may be cheaper or provide better functionality or features than ours, which has resulted and may in the future result in lower-than-expected selling prices or demand for our products. Some of our competitors operate their own fabrication facilities, and have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, more design wins, and greater financial, sales, marketing and distribution resources than we do. These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end-user trends, more quickly transition their products, and impinge on our ability to procure sufficient 14 Table of Contents foundry capacity and scarce input materials during a supply-constrained environment, which could harm our business. Some of our customers have in-house expertise and internal development"
+q010,Compare NVIDIA and Microsoft on research and development spending.,section-30,MSFT,ITEM 1,10,,"Item 1 The Microsoft Cloud provides integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs. We prioritize security above all else and we offer our customers integrated AI-driven products addressing security, compliance, identity, management, and privacy across customers’ multi-cloud, application, and device assets. The Ambitions That Drive Us To achieve our vision, our research and development efforts focus on three interconnected ambitions: • Reinvent productivity and business processes to help organizations and individuals work and collaborate more securely and efficiently. • Build the intelligent cloud and intelligent edge platform to provide a foundation for our customers’ digital workloads, including hybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance. • Create more personal computing experiences that empower people to play, create, and interact with technology in more intuitive, engaging, and dynamic ways. Our Future Opportunity We are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend while leading the AI platform wave across our solution areas. We continue to develop complete, intelligent solutions for our customers that empower people to be productive a"

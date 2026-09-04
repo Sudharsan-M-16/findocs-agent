@@ -69,6 +69,20 @@ def local_filing_path(company: str, data_dir: str = "data") -> Path:
         if path.exists():
             return path  # First match wins
 
+    # SEC downloads are deliberately stored under data/raw/ with a CIK/date
+    # filename. Reuse an already-downloaded filing before asking for an email
+    # or making another network request. ISO filing dates sort lexicographically,
+    # so the last path is the most recent local 10-K for this company.
+    cik = COMPANY_CIKS.get(symbol)
+    if cik:
+        cik10 = str(cik).zfill(10)
+        # Match the CIK prefix rather than the full form suffix. This works
+        # across Windows path matching and still confines the search to one
+        # company's SEC-download filenames.
+        downloaded = sorted((root / "raw").glob(f"{cik10}_*.txt"))
+        if downloaded:
+            return downloaded[-1]
+
     # Return the default path so the error message in load_company_chunks is informative
     return root / f"{symbol.lower()}_10k.txt"
 

@@ -1,6 +1,6 @@
 # Master FinDocs Engineering & Interview Guide
 
-This guide provides a file-by-file technical breakdown, architectural trade-off defenses, and an operational roadmap for **FinDocs**—an agentic, citation-backed SEC filing research system built for enterprise finance QA.
+This guide provides a file-by-file technical breakdown and architectural trade-off defenses for **FinDocs**—an agentic, citation-backed SEC filing research system built for enterprise finance QA.
 
 ---
 
@@ -92,39 +92,32 @@ Explain the codebase in this precise sequence to demonstrate architectural owner
 
 ---
 
-## 4. Empirical Benchmark & Ablation Results
+## 4. Benchmark Reporting Rules
 
 ### Retrieval Ablation Results
 
-Evaluated over Apple (AAPL) 10-K filing queries comparing single baseline retrievers vs. Reciprocal Rank Fusion (RRF $k=60$):
-
-| Stage | Recall@5 | Recall@10 | MRR | Precision@5 |
-| :--- | :--- | :--- | :--- | :--- |
-| `dense_only` (`all-MiniLM-L6-v2`) | 1.000 | 1.000 | 0.589 | 0.267 |
-| `bm25_only` (`rank_bm25`) | 0.833 | 0.833 | 0.528 | 0.167 |
-| **`dense_bm25_rrf` (Hybrid)** | **0.833** | **1.000** | **0.646** | **0.233** |
-
-*Interview Key Takeaway:* Reciprocal Rank Fusion (RRF) boosts Mean Reciprocal Rank to **0.646 MRR** (+5.7% over dense-only, +11.8% over BM25-only), demonstrating that hybrid rank fusion places true positive financial evidence closer to rank 1.
+Do not place example numbers in the README or interview guide. Run the ablation harness on hand-labeled questions and report the generated
+summary CSV. The current workspace contains implementation and smoke-test evidence, not a completed benchmark table.
 
 ### Self-Correction Loop Evaluation
 
 | Execution Mode | Answer Accuracy | Citation Correctness | Retries Used |
 | :--- | :--- | :--- | :--- |
-| `without_retry` ($N=0$) | 80.0% | 97.7% | 0 |
-| `with_retry` ($N=2$) | 80.0% | 97.7% | 0 (Pass on first attempt) |
+| `without_retry` ($N=0$) | run locally | run locally | 0 |
+| `with_retry` ($N=2$) | run locally | run locally | recorded per question |
 
 ### Relevance Grader Fine-Tuning Benchmark
 
 | Grader Variant | Accuracy | Latency (ms) | Cost / Call | Peak VRAM |
 | :--- | :--- | :--- | :--- | :--- |
-| `Heuristic (Word Overlap)` | 23.0% | 0.03 ms | $0.00 | 0.00 GB |
-| **`Fine-Tuned QLoRA (Qwen2.5-1.5B)`** | **90.0%** | **476.98 ms** | **$0.00** | **1.325 GB** |
+| `Heuristic (Word Overlap)` | run locally | run locally | $0.00 | 0.00 GB |
+| `Fine-Tuned QLoRA (Qwen2.5-1.5B)` | requires completed training | run locally | local inference cost | measured on CUDA host |
 
-*Interview Key Takeaway:* Fine-tuning `Qwen2.5-1.5B-Instruct` using 4-bit QLoRA on 100 labeled candidate pairs increased relevance classification accuracy from **23.0% to 90.0%** over simple keyword overlap, while maintaining zero API cost and operating under **1.33 GB VRAM**.
+The QLoRA row is intentionally not filled with a result. The adapter must be trained and evaluated on held-out human labels first.
 
 ---
 
-## 5. Practical Step-by-Step Execution Roadmap
+## 5. Reproducible Execution Sequence
 
 To populate resume-grade evaluation tables and fine-tune the QLoRA grader, execute these commands in order:
 
@@ -179,4 +172,3 @@ py -m findocs.finetune.grader_eval --labels data/grader_label_sheet.csv --model 
 $env:PYTHONPATH='src'
 py -m unittest discover -s tests -v
 ```
-

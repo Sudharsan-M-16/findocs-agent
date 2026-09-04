@@ -4,21 +4,21 @@ grader_eval.py — Relevance Grader Evaluation Harness
 PURPOSE: Compare any two relevance graders (LLM vs QLoRA model) on the same
 labeled dataset using the same timing harness.
 
-THE COMPARISON YOU'RE BUILDING TOWARD:
+THE COMPARISON THIS HARNESS PRODUCES:
 ---------------------------------------------------------------------------
 Metric          LLM Grader         QLoRA Grader
 ---------------------------------------------------------------------------
-Accuracy        ~0.92              fill after training
-Precision       ~0.89              fill after training
-Recall          ~0.94              fill after training
-F1              ~0.91              fill after training
-Latency (ms)    ~800 per call      fill after training (target: ~50ms)
-Cost/call       ~$0.002            $0.00 (local inference)
-GPU memory      0 GB               ~3 GB (loaded in 4-bit)
+Accuracy        measure            measure
+Precision       measure            measure
+Recall          measure            measure
+F1              measure            measure
+Latency (ms)    measure            measure
+Cost/call       configure           $0.00 (local inference)
+GPU memory      measure            measure
 ---------------------------------------------------------------------------
 
-That table is a resume bullet. "The QLoRA grader matched LLM accuracy within
-X points at Yx lower latency and zero API cost."
+Populate this table only after both prediction functions have run on the same
+held-out human-labeled rows. Do not use target values as results.
 
 WHAT "GRADER" MEANS IN THIS CONTEXT:
 A grader takes a (question, chunk) pair and returns 1 (relevant) or 0 (irrelevant).
@@ -41,6 +41,7 @@ HOW TO USE THIS MODULE:
 
 import time
 from collections.abc import Callable
+from pathlib import Path
 
 
 # Type for any grader function: takes one labeled row dict, returns 0 or 1
@@ -200,6 +201,11 @@ def main() -> None:
         default="models/qlora-grader",
         help="Path to fine-tuned LoRA adapter directory",
     )
+    parser.add_argument(
+        "--output",
+        default="results/grader_eval.json",
+        help="JSON file where measured grader results are saved",
+    )
     args = parser.parse_args()
 
     rows = load_labeled_pairs(args.labels)
@@ -215,6 +221,7 @@ def main() -> None:
         return 1 if overlap >= 2 else 0
 
     heuristic_res = evaluate_grader("Heuristic (Word Overlap)", rows, word_overlap_grader)
+    results = [heuristic_res]
     print("\n=== Heuristic Grader Baseline ===")
     print(json.dumps(heuristic_res, indent=2))
 
@@ -252,11 +259,19 @@ def main() -> None:
         qlora_res = evaluate_grader("Fine-Tuned QLoRA (Qwen2.5-1.5B)", rows, qlora_grader, gpu_memory_gb=peak_vram)
         print("\n=== Fine-Tuned QLoRA Grader ===")
         print(json.dumps(qlora_res, indent=2))
+        results.append(qlora_res)
 
     except Exception as exc:
         print(f"\n[Note] QLoRA evaluation skipped or failed: {exc}")
 
+    # Persist the exact measurements so a resume claim can be audited later.
+    # The output is written even when QLoRA evaluation fails, preserving the
+    # heuristic baseline and the failure context in the terminal log.
+    output = Path(args.output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
+    print(f"\nSaved grader results to {output}")
+
 
 if __name__ == "__main__":
     main()
-

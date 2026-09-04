@@ -31,9 +31,146 @@ THE WORKFLOW (see README for the full steps):
 """
 
 import csv
+import json
 from pathlib import Path
 
 from findocs.types import Chunk, RetrievedChunk
+
+
+def apply_reviewed_labels(source_path: str, labels_path: str, output_path: str) -> dict[str, int]:
+    """Create a labeled CSV only after validating reviewed labels against ranks.
+
+    The reviewed labels live in a separate JSON file so their provenance is
+    inspectable. A question's list is applied in ascending CSV rank order, but
+    only if the source has exactly ranks 1..N and exactly N reviewed labels.
+    This prevents a silent row-order mismatch from corrupting ground truth.
+    """
+
+    with Path(source_path).open(encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+    if not rows:
+        raise ValueError("The candidate CSV contains no rows.")
+
+    with Path(labels_path).open(encoding="utf-8") as handle:
+        reviewed = json.load(handle)
+
+    groups: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        groups.setdefault(row["question_id"], []).append(row)
+
+    if set(groups) != set(reviewed):
+        raise ValueError(
+            "Question IDs differ between the candidate CSV and reviewed labels: "
+            f"csv={sorted(groups)}, labels={sorted(reviewed)}"
+        )
+
+    for question_id, question_rows in groups.items():
+        question_rows.sort(key=lambda row: int(row["rank"]))
+        expected_ranks = list(range(1, len(question_rows) + 1))
+        actual_ranks = [int(row["rank"]) for row in question_rows]
+        labels = reviewed[question_id]
+        if actual_ranks != expected_ranks:
+            raise ValueError(f"{question_id} ranks are {actual_ranks}, expected {expected_ranks}.")
+        if len(labels) != len(question_rows) or any(label not in {0, 1} for label in labels):
+            raise ValueError(f"{question_id} must have one binary reviewed label per candidate row.")
+        for row, label in zip(question_rows, labels):
+            row["label"] = str(label)
+
+    target = Path(output_path)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with target.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+
+    labels = [row["label"].strip() for row in rows]
+    return {
+        "total": len(rows),
+        "positive": labels.count("1"),
+        "negative": labels.count("0"),
+        "unlabeled": sum(label not in {"0", "1"} for label in labels),
+    }
+
+
+def summarize_labeled_pairs(rows: list[dict[str, str | int]]) -> dict[str, object]:
+    """Return an auditable quality summary for completed relevance labels.
+
+    This deliberately reports unusual patterns rather than changing labels.  A
+    dataset can legitimately contain an all-positive broad question or a
+    zero-positive failed-retrieval question; hiding either would make the
+    subsequent QLoRA experiment less trustworthy.
+    """
+
+    from collections import Counter, defaultdict
+
+    labels = [int(str(row["label"]).strip()) for row in rows]
+    by_question: dict[str, list[int]] = defaultdict(list)
+    by_company: dict[str, list[int]] = defaultdict(list)
+    by_rank: dict[str, list[int]] = defaultdict(list)
+    pair_counts: Counter[tuple[str, str]] = Counter()
+    toc_rows: list[dict[str, str]] = []
+
+    for row, label in zip(rows, labels):
+        by_question[str(row["question_id"])].append(label)
+        by_company[str(row["company"])].append(label)
+        by_rank[str(row["rank"])].append(label)
+        pair_counts[(str(row["question_id"]), str(row["chunk_id"]))] += 1
+        text = str(row.get("chunk_text", "")).lower()
+        if "table of contents" in text or "table of content" in text:
+            toc_rows.append({
+                "question_id": str(row["question_id"]),
+                "chunk_id": str(row["chunk_id"]),
+                "label": str(label),
+            })
+
+    def breakdown(groups: dict[str, list[int]]) -> dict[str, dict[str, int]]:
+        return {
+            key: {"total": len(values), "positive": sum(values), "negative": len(values) - sum(values)}
+            for key, values in sorted(groups.items())
+        }
+
+    question_summary = breakdown(by_question)
+    duplicate_pairs = [
+        {"question_id": question_id, "chunk_id": chunk_id, "count": count}
+        for (question_id, chunk_id), count in sorted(pair_counts.items())
+        if count > 1
+    ]
+    return {
+        "total_rows": len(rows),
+        "positive": sum(labels),
+        "negative": len(rows) - sum(labels),
+        "class_balance": {"positive_rate": sum(labels) / max(len(rows), 1), "negative_rate": (len(rows) - sum(labels)) / max(len(rows), 1)},
+        "by_question": question_summary,
+        "by_company": breakdown(by_company),
+        "by_rank": breakdown(by_rank),
+        "zero_positive_questions": [key for key, value in question_summary.items() if value["positive"] == 0],
+        "all_positive_questions": [key for key, value in question_summary.items() if value["negative"] == 0],
+        "duplicate_question_chunk_pairs": duplicate_pairs,
+        "toc_text_candidates": toc_rows,
+    }
+
+
+def split_labeled_pairs_by_question(
+    rows: list[dict[str, str | int]], test_question_ids: set[str]
+) -> tuple[list[dict[str, str | int]], list[dict[str, str | int]]]:
+    """Create a deterministic leakage-resistant split using whole questions.
+
+    Candidate chunks for one question share wording and retrieval context.  They
+    must all be train or all be test; splitting individual rows would leak the
+    question into training and inflate held-out metrics.
+    """
+
+    seen = {str(row["question_id"]) for row in rows}
+    unknown = test_question_ids - seen
+    if unknown:
+        raise ValueError(f"Test questions are absent from labeled rows: {sorted(unknown)}")
+    train_rows = [row for row in rows if str(row["question_id"]) not in test_question_ids]
+    test_rows = [row for row in rows if str(row["question_id"]) in test_question_ids]
+    if not train_rows or not test_rows:
+        raise ValueError("Question-level split must leave both train and test rows.")
+    if {int(str(row["label"])) for row in test_rows} != {0, 1}:
+        raise ValueError("Held-out test split must contain both relevant and irrelevant labels.")
+    return train_rows, test_rows
 
 
 def candidate_rows(

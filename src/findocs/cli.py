@@ -111,6 +111,14 @@ def show_candidates(label_sheet: str, question_id: str) -> None:
     """Print candidates for one question so manual labels are easier to assign."""
 
     import csv
+    import sys
+
+    # Windows PowerShell may expose a legacy cp1252 stdout that cannot print
+    # some filing characters (for example checkbox glyphs copied from HTML).
+    # Replacing only unprintable characters keeps the inspection command useful
+    # without changing the source text stored in the CSV.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(errors="replace")
 
     with Path(label_sheet).open(encoding="utf-8") as handle:
         rows = [row for row in csv.DictReader(handle) if row["question_id"] == question_id]
@@ -135,6 +143,14 @@ def sync_labels(questions_path: str, label_sheet: str, output_path: str) -> None
         json.dump(questions, handle, indent=2)
         handle.write("\n")
     print(f"updated {output_path}")
+
+
+def apply_reviewed_labels(source_path: str, labels_path: str, output_path: str) -> None:
+    """Validate reviewed labels against candidate ranks and write a labeled copy."""
+
+    from findocs.finetune.dataset import apply_reviewed_labels as apply_labels
+
+    print(json.dumps(apply_labels(source_path, labels_path, output_path), indent=2))
 
 
 def eval_retrieval(companies: str, email: str | None, questions_path: str, output_path: str, use_reranker: bool) -> None:
@@ -184,7 +200,7 @@ def eval_correction(companies: str, email: str | None, questions_path: str, outp
 
 
 def decompose(question: str) -> None:
-    """Print the Day 9 sub-queries for a multi-company question."""
+    """Print the company-specific sub-queries for a multi-company question."""
 
     from findocs.agent.decompose import decompose_query
 
@@ -221,6 +237,11 @@ def main() -> None:
     sync_parser.add_argument("--labels", default="data/grader_label_sheet.csv")
     sync_parser.add_argument("--output", default="data/eval_questions.json")
 
+    reviewed_parser = sub.add_parser("apply-reviewed-labels")
+    reviewed_parser.add_argument("--input", default="data/grader_label_sheet_v2.csv")
+    reviewed_parser.add_argument("--labels", default="data/grader_label_sheet_v2_labels.json")
+    reviewed_parser.add_argument("--output", default="data/grader_label_sheet_v2_labeled.csv")
+
     eval_parser = sub.add_parser("eval-retrieval")
     eval_parser.add_argument("--companies", default="AAPL")
     eval_parser.add_argument("--email")
@@ -250,6 +271,8 @@ def main() -> None:
         show_candidates(args.labels, args.question_id)
     elif args.command == "sync-labels":
         sync_labels(args.questions, args.labels, args.output)
+    elif args.command == "apply-reviewed-labels":
+        apply_reviewed_labels(args.input, args.labels, args.output)
     elif args.command == "eval-retrieval":
         eval_retrieval(args.companies, args.email, args.questions, args.output, args.rerank)
     elif args.command == "eval-correction":

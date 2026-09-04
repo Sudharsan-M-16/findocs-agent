@@ -72,14 +72,24 @@ def mentioned_companies(question: str) -> list[str]:
     lowered = question.lower()
     symbols: list[str] = []
 
-    # Pass 1: match full names from COMPANY_ALIASES
+    # Collect every alias with its position in the original question. Sorting
+    # by position preserves the user's comparison order ("NVIDIA and
+    # Microsoft" becomes NVDA, MSFT) instead of using dictionary order. This
+    # matters for readable traces and for pairing sub-answers with companies.
+    matches: list[tuple[int, str]] = []
     for name, symbol in COMPANY_ALIASES.items():
-        if re.search(rf"\b{re.escape(name)}\b", lowered) and symbol not in symbols:
-            symbols.append(symbol)
+        match = re.search(rf"\b{re.escape(name)}\b", lowered)
+        if match:
+            matches.append((match.start(), symbol))
 
-    # Pass 2: match ticker symbols (e.g. "NVDA", "MSFT")
+    # Tickers are a second alias form for the same canonical symbols.
     for symbol in set(COMPANY_ALIASES.values()):
-        if re.search(rf"\b{symbol.lower()}\b", lowered) and symbol not in symbols:
+        match = re.search(rf"\b{symbol.lower()}\b", lowered)
+        if match:
+            matches.append((match.start(), symbol))
+
+    for _, symbol in sorted(matches, key=lambda item: item[0]):
+        if symbol not in symbols:
             symbols.append(symbol)
 
     return symbols

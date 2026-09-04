@@ -6,7 +6,7 @@ This module sits between the retrieval/verification pipeline and the CLI output.
 THREE FUNCTIONS, THREE RESPONSIBILITIES:
 1. extractive_answer()    : Select what text becomes the answer.
 2. format_cited_answer()  : Run verification and structure the result as a dict.
-3. render_cited_answer()  : Produce the human-readable string for CLI/UI display.
+3. render_cited_answer()  : Produce the human-readable string for CLI display.
 
 WHY SEPARATE THESE?
 - extractive_answer() can be swapped for an LLM generator without touching
